@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check PNR Status, IRCTC Train PNR Status Enquiry</title>
+    <link href="./booktraintickets.css" rel="stylesheet">
+   <link href="./checkpnrstatus.css" rel="stylesheet">
+   <link href="./livetrainstatus.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="pnrstatus_dweb_main_wrap">
+            <div><nav class="__NavWrapper-sc-1ne7eyw-0 eIDSEC nav-Navbarwrapper">
+              <div class="Navbar__NavCenter-sc-1ne7eyw-1 hAmVgO nav-center">
+                  <div class="Navbar__NavContent-sc-1ne7eyw-2 iVwDPv nav-left">
+                      <a href="index.html">
+  
+                          <div class="bus-logo"><img src="rb_logo.svg" alt="redbus logo">
+                          </div>
+                      </a>
+                          <a href="index.html" class="nav-link ">Bus Tickets</a>
+                      <a href="booktraintickets.html" class="nav-link active">redRail</a>
+                  </div>
+                      <div class="Navbar__NavContent-sc-1ne7eyw-2 iVwDPv nav-right">
+                          <div class="nav-icon link-icon"><img src="help2.svg" alt="Help">
+                              <a href="help.html" class="nav-link">Help</a>
+                          </div>
+                          <div class="nav-icon"><img src="user_profile.svg" alt="user profile">
+                              <span class="icon icon-arrow-down down-arrow"></span>
+                          </div>
+                          <div class="Navbar__MenuList-sc-1ne7eyw-3 wkyes submenu-list "><ul></ul>
+                          </div>
+                          <div class="Navbar__MenuList-sc-1ne7eyw-3 wkyes signin-list ">
+                              <ul>
+                                  <li><div class="menu-item">SignUp / Signin</div></li>
+                                  <li><div class="menu-item">Cancel Ticket</div></li>
+                              </ul>
+                         </div>
+                      </div>
+                  </div>
+          </nav>
+        </div>
+        <section class="banner-wrapper">
+            <div class="breadcrumb-wrapper">
+                <div class="breadcrumb-content">
+                    <div class="crumb-link">
+                      <a href="booktraintickets.html" class="crumb-href">Home</a>
+                      <img src="chevron_right.svg" alt="chevron_right" width="24" height="24" loading="lazy"></div>
+                      <div class="crumb-link"><a href="booktraintickets.html" class="crumb-href">Trains</a>
+                        <img src="chevron_right.svg" alt="chevron_right" width="24" height="24" loading="lazy"></div>
+                        <div class="crumb-dstn">PNR Status</div>
+                      </div>
+                    </div>
+                    <div class="banner" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(&quot;main-background.png&quot;);">
+                        <div class="logo"><span class="text">Check PNR Status</span>
+                            <img class="rails-logo" src="rails_logo_white.svg" alt="rails logo" width="88" height="48"></div>
+                            <div class="irctc-logo"><img class="img" src="irctc_logo_pnr.svg" alt="irctc logo">
+                                <span class="irctc">Authorised by</span><span class="bold">&nbsp;IRCTC</span></div>
+                                <div class="ris-wrapper"><div class="ris-selector"><a href="booktraintickets.html"><p>Book Train tickets</p></a>
+                                  <div class="radio-button-outer false"><div class="radio-button-inner false"></div>
+                                </div>
+                              </div>
+                              <div class="ris-selector"><a href="checkpnrstatus.html">
+                                <p>Check PNR Status</p></a>
+                                <div class="radio-button-outer red-border-radio">
+                                  <div class="radio-button-inner red-background">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="ris-selector"><a href="livetrainstatus.html"><p>Live Train Status</p></a>
+                                <div class="radio-button-outer false"><div class="radio-button-inner false">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="pnr-input-wrapper">
+                            <input class="pnr-input-text" type="text" placeholder="Enter PNR Number" name="pnrNo" id="" pattern="[0-9]*" inputmode="numeric" value="">
+                            <button class=" button  button pnr_disabled1">Check Status</button>
+                          </div>
+                        </div>
+                      </section>
+                      <div class="consistent-distance-header"></div>
+                      <div class="marginTop"></div><div class="top-ten-trains-wrapper">
+                        <div class="data-container">
+                          <div class="heading-container">Top 10 Trains with Highest Waitlist PNR</div>
+                          <div class="body-container">
+                            <div class="train-container-wrapper">
+                              <div class="train-container">
+                                <div class="train-name">12863 HWH SMVB EXP</div>
+                                <div class="days"><div><span class="runningDaysClassnameYes">M </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">T </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">W </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">T </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">F </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">S </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">S </span>
+                                </div>
+                              </div>
+                              <div class="seats"><span>2A, </span><span>3A, </span><span>3E, </span><span>SL </span>
+                              </div>
+                            </div>
+                            <div class="train-src-dst-container">
+                              <div class="sub-container1">
+                                <div class="time">6:45 AM</div>
+                                <div class="station-name">HOWRAH JN</div>
+                                <div class="station-code">HWH</div>
+                              </div>
+                              <div class="sub-container2">
+                                <div class="duration-wrapper">
+                                  <div class="connecting-line"></div>
+                                  <div class="duration">31 h 92 min</div>
+                                  <div class="connecting-line"></div>
+                                </div>
+                              </div>
+                              <div class="sub-container3">
+                                <div class="time">10:50 PM</div>
+                                <div class="station-name">SMVT BENGALURU</div>
+                                <div class="station-code">SMVB</div>
+                              </div>
+                            </div>
+                            <div class="train-container3">
+                              <button class="availability-button">Show Availability</button>
+                            </div>
+                          </div>
+                          <div class="train-container-wrapper">
+                            <div class="train-container">
+                              <div class="train-name">17230 SABARI EXPRESS</div>
+                              <div class="days">
+                                <div><span class="runningDaysClassnameYes">M </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">T </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">W </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">T </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">F </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">S </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">S </span>
+                                </div>
+                              </div>
+                              <div class="seats"><span>1A, </span><span>2A, </span><span>3A, </span><span>SL </span>
+                              </div>
+                            </div>
+                            <div class="train-src-dst-container">
+                              <div class="sub-container1">
+                                <div class="time">6:05 PM</div>
+                                <div class="station-name">SECUNDERABAD JN</div>
+                                <div class="station-code">SC</div>
+                              </div>
+                              <div class="sub-container2">
+                                <div class="duration-wrapper">
+                                  <div class="connecting-line"></div>
+                                  <div class="duration">29 h 75 min</div>
+                                  <div class="connecting-line"></div>
+                                </div>
+                              </div>
+                              <div class="sub-container3">
+                                <div class="time">12:20 PM</div>
+                                <div class="station-name">TRIVANDRUM CNTL</div>
+                                <div class="station-code">TVC</div>
+                              </div>
+                            </div>
+                            <div class="train-container3">
+                              <button class="availability-button">Show Availability</button>
+                            </div>
+                          </div>
+                          <div class="train-container-wrapper">
+                            <div class="train-container">
+                              <div class="train-name">11062 JYG LTT EXP</div>
+                              <div class="days"><div><span class="runningDaysClassnameYes">M </span>
+                              </div>
+                              <div><span class="runningDaysClassnameYes">T </span></div>
+                              <div><span class="runningDaysClassnameYes">W </span></div>
+                              <div><span class="runningDaysClassnameYes">T </span></div>
+                              <div><span class="runningDaysClassnameYes">F </span></div>
+                              <div><span class="runningDaysClassnameYes">S </span></div>
+                              <div><span class="runningDaysClassnameYes">S </span></div>
+                            </div>
+                            <div class="seats"><span>2A, </span><span>3A, </span><span>SL </span>
+                            </div>
+                          </div>
+                          <div class="train-src-dst-container">
+                            <div class="sub-container1">
+                              <div class="time">12:25 AM</div>
+                              <div class="station-name">JAYNAGAR</div>
+                              <div class="station-code">JYG</div>
+                            </div>
+                            <div class="sub-container2">
+                              <div class="duration-wrapper">
+                                <div class="connecting-line">
+                                </div><div class="duration">35 h 25 min</div>
+                                <div class="connecting-line"></div>
+                              </div>
+                            </div>
+                            <div class="sub-container3">
+                              <div class="time">1:10 PM</div>
+                              <div class="station-name">LOKMANYATILAK T</div>
+                              <div class="station-code">LTT</div>
+                            </div>
+                          </div>
+                          <div class="train-container3">
+                            <button class="availability-button">Show Availability</button>
+                          </div>
+                        </div>
+                        <div class="train-container-wrapper">
+                          <div class="train-container">
+                            <div class="train-name">15024 YPR GKP EXP</div>
+                            <div class="days"><div><span class="runningDaysClassnameNo">M </span>
+                            </div>
+                            <div><span class="runningDaysClassnameNo">T </span>
+                            </div>
+                            <div><span class="runningDaysClassnameNo">W </span></div>
+                            <div><span class="runningDaysClassnameYes">T </span></div>
+                            <div><span class="runningDaysClassnameNo">F </span></div>
+                            <div><span class="runningDaysClassnameNo">S </span></div>
+                            <div><span class="runningDaysClassnameNo">S </span></div>
+                          </div>
+                          <div class="seats"><span>1A, </span><span>2A, </span><span>3A, </span><span>SL </span></div></div><div class="train-src-dst-container">
+                            <div class="sub-container1">
+                              <div class="time">7:35 PM</div>
+                              <div class="station-name">YESVANTPUR JN</div>
+                              <div class="station-code">YPR</div>
+                            </div>
+                            <div class="sub-container2">
+                              <div class="duration-wrapper">
+                                <div class="connecting-line"></div>
+                                <div class="duration">43 h 92 min</div>
+                                <div class="connecting-line"></div>
+                              </div>
+                            </div>
+                            <div class="sub-container3">
+                              <div class="time">11:40 PM</div>
+                              <div class="station-name">GORAKHPUR JN</div>
+                              <div class="station-code">GKP</div>
+                            </div>
+                          </div>
+                          <div class="train-container3">
+                            <button class="availability-button">Show Availability</button>
+                          </div>
+                        </div>
+                        <div class="train-container-wrapper">
+                          <div class="train-container">
+                            <div class="train-name">17488 TIRUMALA EXP</div>
+                            <div class="days">
+                              <div><span class="runningDaysClassnameYes">M </span></div>
+                              <div><span class="runningDaysClassnameYes">T </span></div>
+                              <div><span class="runningDaysClassnameYes">W </span></div>
+                              <div><span class="runningDaysClassnameYes">T </span></div>
+                              <div><span class="runningDaysClassnameYes">F </span></div>
+                              <div><span class="runningDaysClassnameYes">S </span></div>
+                              <div><span class="runningDaysClassnameYes">S </span></div>
+                            </div>
+                            <div class="seats"><span>1A, </span><span>2A, </span><span>3A, </span><span>3E, </span><span>SL </span>
+                            </div>
+                          </div>
+                          <div class="train-src-dst-container">
+                            <div class="sub-container1">
+                              <div class="time">7:00 AM</div>
+                              <div class="station-name">VISAKHAPATNAM</div>
+                              <div class="station-code">VSKP</div>
+                            </div>
+                            <div class="sub-container2">
+                              <div class="duration-wrapper">
+                                <div class="connecting-line"></div>
+                                <div class="duration">17 h 0 min</div>
+                                <div class="connecting-line"></div>
+                              </div>
+                            </div>
+                            <div class="sub-container3">
+                              <div class="time">2:00 PM</div>
+                              <div class="station-name">CUDDAPAH JN</div>
+                              <div class="station-code">HX</div>
+                            </div>
+                          </div>
+                          <div class="train-container3">
+                            <button class="availability-button">Show Availability</button></div>
+                          </div>
+                          <div class="train-container-wrapper">
+                            <div class="train-container">
+                              <div class="train-name">18463 PRASHANTHI EXPR</div>
+                              <div class="days">
+                                <div><span class="runningDaysClassnameYes">M </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">T </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">W </span>
+                                </div>
+                                <div><span class="runningDaysClassnameYes">T </span></div>
+                                <div><span class="runningDaysClassnameYes">F </span></div>
+                                <div><span class="runningDaysClassnameYes">S </span></div>
+                                <div><span class="runningDaysClassnameYes">S </span></div>
+                              </div>
+                              <div class="seats"><span>1A, </span><span>2A, </span><span>3A, </span><span>SL </span></div>
+                            </div>
+                            <div class="train-src-dst-container"><div class="sub-container1">
+                              <div class="time">11:45 AM</div>
+                              <div class="station-name">BHUBANESWAR</div><div class="station-code">BBS</div>
+                            </div>
+                              <div class="sub-container2"><div class="duration-wrapper">
+                                <div class="connecting-line"></div>
+                                <div class="duration">30 h 08 min</div>
+                                <div class="connecting-line"></div>
+                              </div>
+                            </div>
+                            <div class="sub-container3">
+                              <div class="time">5:40 AM</div>
+                              <div class="station-name">KSR BENGALURU</div>
+                              <div class="station-code">SBC</div>
+                            </div>
+                          </div>
+                          <div class="train-container3">
+                            <button class="availability-button">Show Availability</button></div>
+                          </div>
+                          <div class="train-container-wrapper">
+                            <div class="train-container"><div class="train-name">17229 SABARI EXPRESS</div>
+                            <div class="days"><div><span class="runningDaysClassnameYes">M </span></div>
+                            <div><span class="runningDaysClassnameYes">T </span></div>
+                            <div><span class="runningDaysClassnameYes">W </span></div>
+                            <div><span class="runningDaysClassnameYes">T </span></div>
+                            <div><span class="runningDaysClassnameYes">F </span></div>
+                            <div><span class="runningDaysClassnameYes">S </span></div>
+                            <div><span class="runningDaysClassnameYes">S </span></div>
+                          </div><div class="seats"><span>1A, </span><span>2A, </span><span>3A, </span><span>SL </span></div>
+                        </div><div class="train-src-dst-container"><div class="sub-container1">
+                          <div class="time">12:30 PM</div><div class="station-name">TRIVANDRUM CNTL</div>
+                          <div class="station-code">TVC</div>
+                        </div><div class="sub-container2">
+                          <div class="duration-wrapper">
+                            <div class="connecting-line"></div>
+                            <div class="duration">29 h 75 min</div>
+                            <div class="connecting-line"></div>
+                          </div>
+                        </div>
+                        <div class="sub-container3">
+                          <div class="time">6:45 AM</div>
+                          <div class="station-name">SECUNDERABAD JN</div><div class="station-code">SC</div>
+                        </div></div><div class="train-container3">
+                          <button class="availability-button">Show Availability</button>
+                        </div>
+                      </div>
+                      <div class="train-container-wrapper">
+                        <div class="train-container">
+                          <div class="train-name">12311 NETAJI EXPRESS</div>
+                          <div class="days"><div>
+                            <span class="runningDaysClassnameYes">M </span>
+                          </div><div><span class="runningDaysClassnameYes">T </span>
+                          </div><div><span class="runningDaysClassnameYes">W </span></div>
+                          <div><span class="runningDaysClassnameYes">T </span></div>
+                          <div><span class="runningDaysClassnameYes">F </span></div>
+                          <div><span class="runningDaysClassnameYes">S </span></div>
+                          <div><span class="runningDaysClassnameYes">S </span></div>
+                        </div><div class="seats"><span>1A, </span><span>2A, </span><span>3A, </span><span>SL </span></div>
+                      </div><div class="train-src-dst-container"><div class="sub-container1"><div class="time">3:00 AM</div>
+                      <div class="station-name">HOWRAH JN</div><div class="station-code">HWH</div>
+                    </div><div class="sub-container2"><div class="duration-wrapper"><div class="connecting-line"></div>
+                    <div class="duration">29 h 08 min</div><div class="connecting-line"></div>
+                  </div></div><div class="sub-container3"><div class="time">9:55 PM</div>
+                  <div class="station-name">KALKA</div><div class="station-code">KLK</div></div>
+                </div><div class="train-container3"><button class="availability-button">Show Availability</button></div>
+              </div><div class="train-container-wrapper"><div class="train-container"><div class="train-name">16127 MS GURUVAYUR EXP</div>
+              <div class="days"><div>
+                <span class="runningDaysClassnameYes">M </span></div><div><span class="runningDaysClassnameYes">T </span></div>
+              <div><span class="runningDaysClassnameYes">W </span></div>
+              <div><span class="runningDaysClassnameYes">T </span></div>
+              <div><span class="runningDaysClassnameYes">F </span></div>
+              <div><span class="runningDaysClassnameYes">S </span></div>
+              <div><span class="runningDaysClassnameYes">S </span></div>
+            </div><div class="seats"><span>2A, </span><span>2S, </span><span>3A, </span><span>SL </span></div>
+          </div><div class="train-src-dst-container"><div class="sub-container1"><div class="time">7:40 AM</div>
+          <div class="station-name">CHENNAI EGMORE</div><div class="station-code">MS</div>
+        </div><div class="sub-container2"><div class="duration-wrapper"><div class="connecting-line"></div>
+        <div class="duration">21 h 92 min</div><div class="connecting-line"></div></div>
+      </div><div class="sub-container3"><div class="time">9:45 AM</div>
+      <div class="station-name">GURUVAYUR</div><div class="station-code">GUV</div>
+    </div>
+  </div><div class="train-container3"><button class="availability-button">Show Availability</button></div>
+</div><div class="train-container-wrapper">
+  <div class="train-container"><div class="train-name">15658 BRAHMAPUTRA EXP</div>
+  <div class="days"><div><span class="runningDaysClassnameYes">M </span></div>
+  <div><span class="runningDaysClassnameYes">T </span></div><div><span class="runningDaysClassnameYes">W </span></div>
+  <div><span class="runningDaysClassnameYes">T </span></div><div><span class="runningDaysClassnameYes">F </span></div>
+  <div><span class="runningDaysClassnameYes">S </span></div><div><span class="runningDaysClassnameYes">S </span></div>
+</div><div class="seats"><span>1A, </span><span>2A, </span><span>3A, </span><span>3E, </span><span>SL </span></div>
+</div><div class="train-src-dst-container"><div class="sub-container1">
+  <div class="time">4:35 AM</div><div class="station-name">KAMAKHYA</div>
+  <div class="station-code">KYQ</div></div><div class="sub-container2"><div class="duration-wrapper">
+    <div class="connecting-line"></div><div class="duration">37 h 67 min</div><div class="connecting-line"></div></div>
+  </div><div class="sub-container3"><div class="time">2:55 PM</div><div class="station-name">DELHI</div>
+  <div class="station-code">DLI</div></div></div><div class="train-container3">
+    <button class="availability-button">Show Availability</button>
+  </div></div></div></div></div></div></div>
+     <div class="seo_main_wrap_ssr" id="seo-schema">
+      <div id="C_103" class="seo_item_wrap">
+         <h1>Check PNR Status</h1>
+         <div>
+          <p></p><p>Train journeys are a regular aspect of life for many Indians, whether it’s for vacations or business trips. With one of the largest rail networks in the world, the Indian railways ferry over a million passengers on a daily basis. The PNR number system plays a crucial role in managing this vast network efficiently. 
+            If you are planning to travel, it\'s essential to understand how the PNR number works. Read on to learn more about the PNR no. and how to check PNR status on redRail.&nbsp;</p>
+    <p></p>
+        </div>
+      </div>
+      <div id="C_103" class="seo_item_wrap">
+        <h2>What is PNR Status?</h2>
+      <div>
+          <p></p><p>PNR, which stands for Passenger Name Record, is a unique and critical number. It is a 10-digit number automatically generated by the IRCTC on booking train ticket. The PNR is like a digital certificate that encompasses the journey details of one or more passengers. To know or check any travel details, you must know the IRCTC PNR status.&nbsp;</p>
+    <p></p>
+      </div>
+      </div>
+    <div id="C_103" class="seo_item_wrap">
+      <h2>Facts about Railway PNR Status</h2>
+       <div>
+        <p></p><p>Below are some quick facts about PNR status that passengers must be familiar with.</p>
+    <ul>
+    <li>PNR stands for Passenger Name Record, containing a 10-digit alphanumeric code.</li>
+    <li>The PNR number consists of three digits known as PRS (Passenger Reservation System) followed by seven system-generated digits.</li>
+    <li>The PNR number has a validity period of 9 months.</li>
+    <li>PNR status is subject to change due to cancellations, reflecting real-time updates.</li>
+    <li>Passengers can conveniently check their PNR status online through authorized IRCTC platforms.</li>
+    <li>PNR status is crucial for travellers to plan their journey effectively.</li>
+    <li>PNR status indicates whether a passenger\'s seat is confirmed or on the waiting list.</li>
+    <li>A 10-digit PNR number uniquely identifies the passenger, ticket, and transaction details.</li>
+    </ul>
+    <p></p>
+  </div>
+</div>
+<div id="C_103" class="seo_item_wrap">
+  <h2>How Does IRCTC Train PNR Status Help in Planning a Train Journey?</h2>
+    <div>
+          <p></p><p>Train PNR status is a convenient method for verifying ticket status, reservation and seat availability, booking particulars, and travel confirmation. Keeping track of your PNR status enables you to stay updated about all aspects of your travel. Any change in train schedule or reservation details will enable you to plan ahead and, thus, ensure a safe and comfortable trip.<br>The Indian Railway PNR status helps in planning a train journey for multiple reasons:</p>
+    <ul>
+    <li><strong>Confirmation of Booking</strong>: PNR status check enables travellers to verify whether their train ticket booking is confirmed, waitlisted, or placed under reservation against cancellation (RAC), providing certainty of train journey planning.&nbsp;</li>
+    <li><strong>Journey Preparation</strong>: PNR status check helps in understanding the likelihood of securing a confirmed seat if the ticket is waitlisted or RAC, facilitating better journey preparation.</li>
+    <li><strong>Seat and Berth Details</strong>: Upon confirmation, the PNR status furnishes detailed information about the coach, and seat/berth number, essential for a comfortable journey.</li>
+    <li><strong>Travel Updates</strong>: PNR status often includes vital updates about the journey, such as changes in train schedule, platform number, or any delays, assisting travellers in adjusting their plans accordingly.</li>
+    <li><strong>Group Travel Coordination</strong>: PNR status check for group passengers ensures that all group members are informed about the train ticket status for streamlining their coordination efforts.&nbsp;</li>
+    <li><strong>Alternate Planning</strong>: In cases of unconfirmed tickets, knowing the PNR status well in advance facilitates contingency planning for alternate travel arrangements, if necessary.&nbsp;</li>
+    </ul>
+    <p>Regular PNR status checking is a proactive step in ensuring the best train journey experience.</p>
+    <p></p>
+</div></div>
+  <div id="C_103" class="seo_item_wrap">
+    <h2>PNR Status Enquiry and IRCTC Train PNR Status Prediction</h2>
+        <div>
+          <p></p><p>A database is run by the Centre of Railway Information Systems or CRIS containing all the information of train tickets, including the PNR number. By conducting a PNR Status Enquiry, passengers can access their train PNR status and related information.The 10-digit PNR Number is located at the top of the ticket which is essential for checking PNR status on redRail.</p>
+    <p>Note that, even if you use some other platform to book train tickets, you can check the 10 digit PNR status on redRail. Additionally, redRail offers a user-friendly interface for PNR enquiry, ensuring an easy and hassle-free process.That’s not all, the IRCTC PNR Status Prediction gives you a fair prediction of the chances of ticket confirmation, adding another layer of convenience for all passengers.</p>
+    <p></p>
+    </div>
+    </div>
+    <div id="C_103" class="seo_item_wrap">
+    <h2>How to Check Train IRCTC PNR Status on redRail?</h2>
+      <div>
+          <p></p><p>Perform real-time PNR status check on your mobile device. Let us take a quick look at how you can check the IRCTC PNR status online on redRail. :</p>
+    <p><strong>PNR Status Checking via redRail app</strong></p>
+    <ul>
+    <li><strong>Step 1: </strong>Download the redRail app on your smartphone.</li>
+    <li><strong>Step 2: </strong>Select “PNR Status” on the home screen.</li>
+    <li><strong>Step 3: </strong>Enter 10-digit PNR number (The PNR no. is given on the top of your ticket) and then click on the “Check Status” button.</li>
+    <li><strong>Step 4: </strong>The details of the PNR status will appear on the screen.</li>
+    </ul>
+    <h3><strong>PNR Status Checking via website</strong></h3>
+    <ul>
+    <li><strong>Step 1: </strong>Visit the redRail homepage.</li>
+    <li><strong>Step 2: </strong>Click on the redRail icon at the top of the home page.</li>
+    <li><strong>Step 3: </strong>Click on the PNR Status and enter 10-digit PNR number.</li>
+    <li><strong>Step 4: </strong>Click on the “Check Status” button.</li>
+    <li><strong>Step 5: </strong>The PNR status will be displayed on the screen.</li>
+    </ul>
+    <h3><strong>PNR Status via Whatsapp</strong></h3>
+    <p>redRail also offers a way to make a PNR enquiry via WhatsApp. You can send a Hi on the Railbot number (+91 8050139139) to activate it and check your train ticket PNR status. Along with PNR, you may check Live Train Status, Coach Position, and Train Schedule through the WhatsApp chatbot.</p>
+    <p></p>
+  </div>
+</div>
+  <div id="C_232" class="seo_item_wrap">
+        <h2>What Do PNR Abbreviations Mean?</h2>
+        <div>
+          <p>For those of you who are new to train bookings, there are many abbreviations that can leave you a little confused. Worry not, we’ve got you covered. The first three digits of the PNR search give information about the system that was used by the passengers when booking the train tickets, and the last seven digits are system-generated randomly. Other commonly used PNR Abbreviations are:</p>
+            <div class="flex-container">
+            <div class="table1">
+              <table>
+                <tbody><tr>
+                  <th class="seo_item_abbr">Abbreviation</th>
+                  <th class="seo_item_desc">Description</th>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">CAN / MOD</td>
+                  <td>Cancelled or Modified Passenger</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">CNF / Confirmed</td>
+                  <td>Confirmed (Coach/Berth number will be available after chart preparation)</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">RAC</td>
+                  <td>Reservation Against Cancellation</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">WL #</td>
+                  <td>Waiting List Number</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">RLWL</td>
+                  <td>Remote Location Wait List</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">GNWL</td>
+                  <td>General Wait List</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">PQWL</td>
+                  <td>Pooled Quota Wait List</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">REGRET/WL</td>
+                  <td>No More Booking Permitted</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">RELEASED</td>
+                  <td>Ticket Not Cancelled but Alternative Accommodation Provided</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">R# #</td>
+                  <td>RAC Coach Number Berth Number</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">WEBCAN</td>
+                  <td>Railway Counter Ticket Passenger cancelled through internet and Refund  not collected</td>
+                </tr>
+                          </tbody></table>
+            </div>
+            <div class="table2">
+              <table>
+                <tbody><tr>
+                  <th class="seo_item_abbr">Abbreviation</th>
+                  <th class="seo_item_desc">Description</th>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">WEBCANRF</td>
+                  <td>Railway Counter Ticket Passenger cancelled through internet and Refund collected</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">RQWL</td>
+                  <td>Roadside Quota Waitlist</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">DPWL</td>
+                  <td>Duty Pass Waitlist</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">TQWL</td>
+                  <td>Tatkal Quota Waitlist</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">SS</td>
+                  <td>Senior Citizen Quota / Single Lady Passenger above 45 Years</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">NC</td>
+                  <td>No Choice - When the opted berth/seat preference not allotted</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">HP</td>
+                  <td>Handicapped Quota</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">HO</td>
+                  <td>Head Quarters / High Official Quota ( popularly known as VIP Quota)</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">PT</td>
+                  <td>Premium Tatkal</td>
+                </tr>
+                
+                <tr>
+                  <td class="seo_red_data">NOSB</td>
+                  <td>No Seat Berth (For child passenger in 5-12 years age range opting to travel without berth)</td>
+                </tr>
+                          </tbody></table>
+            </div>
+          </div>
+       </div>
+      </div>
+      <div id="C_103" class="seo_item_wrap">
+        <h2>Key Features of redRail PNR Status Check</h2>
+    <div>
+          <p></p><p>redRail PNR Status check offers the following features for passengers.&nbsp;</p>
+    <ul>
+    <li>redRail provides timely update about train name &amp; number, boarding date, and departure time.</li>
+    <li>As an authorized partner of IRCTC, redRail ensures accuracy of the information provided to you.</li>
+    <li>With a single PNR search, you can see the information of all passengers booked under one PNR search.</li>
+    <li>Having the current and accurate status of your train and the ticket, enables better journey management and reduces inconvenience.</li>
+    <li>Additionally, you would also get to view the fare and transaction details.</li>
+    <li>redRail provides regular updates about your PNR number status on your WhatsApp.</li>
+    </ul>
+    <p></p>
+  </div>
+</div>
+<div id="C_119" class="seo_item_wrap">
+    <h2>FAQs about Train PNR Status</h2>
+        <div key="0" onclick="toggleItem('0')">
+          <h3 class="faq_icon_wrap">What is the validity of a PNR number?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+           <p>The PNR number is valid for 9 months. However, it can be re-generated after 1 year.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+        <div key="1" onclick="toggleItem('1')">
+          <h3 class="faq_icon_wrap">What are the benefits of a PNR Number?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+           <p>The PNR number is useful not just for the IRCTC but also for the passenger. On one hand, it facilitates the management of a vast railway network, while on the other hand, it helps the passenger access train-related information effortlessly.&nbsp;</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+        <div key="2" onclick="toggleItem('2')">
+          <h3 class="faq_icon_wrap">Will the PNR search status show personal information?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>Yes, along with the details of the train journey, personal details such as the passenger\'s name will be displayed if the ticket was booked on redRail. However, if the user has booked the tickets on IRCTC and visits redRail for PNR check, then the name will not be displayed.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+       <div key="3" onclick="toggleItem('3')">
+          <h3 class="faq_icon_wrap">Where can I find my PNR search number?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+           <p>The PNR number is mentioned on the top-left side of the Indian railway train ticket. In case you have booked the ticket online via redRail or any other platform, the PNR number would be on the top-left side of the ticket.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+        <div key="4" onclick="toggleItem('4')">
+          <h3 class="faq_icon_wrap">Can you see information regarding the ticket fare during the PNR enquiry?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>Your PNR enquiry will not display any fare or transaction details and will solely provide information about the journey details.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+         <div key="5" onclick="toggleItem('5')">
+          <h3 class="faq_icon_wrap">How far in advance can I check my PNR status?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+           <p>Upon booking a ticket, you will receive the PNR number instantly. However, the train chart is prepared 4 hours before the scheduled departure (from the starting station).</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+        <div key="6" onclick="toggleItem('6')">
+          <h3 class="faq_icon_wrap">What is live PNR status?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>The real-time PNR status informs you whether your ticket is booked or not. On redRail, you can also track the train status, as well as the coach position of your train.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+        <div key="7" onclick="toggleItem('7')">
+          <h3 class="faq_icon_wrap">How to check railway ticket confirmation online?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>You can visit the redRail app and enter your 10 digit PNR number printed on your ticket and click on the “check status” button.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+        <div key="8" onclick="toggleItem('8')">
+          <h3 class="faq_icon_wrap">What does RAC mean, and can I travel with a RAC ticket?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>RAC refers to Reservation Against cancellation. This indicates that your reservation is confirmed, allowing you to board the train. However, the berth would be shared between passengers. In case the confirmed passenger is not on the train, the whole berth would be given to the RAC passenger.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+      <div key="9" onclick="toggleItem('9')">
+          <h3 class="faq_icon_wrap">Does redRail show accurate information during PNR enquiry?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>redRail is an official partner of IRCTC, therefore, you can assure that the information provided on redRail is accurate and reliable.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+       <div key="10" onclick="toggleItem('10')">
+          <h3 class="faq_icon_wrap">How frequently does IRCTC PNR Status get updated?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>Due to significant demand on railways, the IRCTC PNR train Status gets updated by the minute. Availability of seats/ tickets is largely dependent on cancellations, and thus the status gets updated every minute.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+     <div key="11" onclick="toggleItem('11')">
+          <h3 class="faq_icon_wrap">What abbreviations can you find on a PNR status check?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>The most common abbreviations of PNR status are: CNF - Confirmed, RAC - Reservation Against Cancellation WL - Waitlist CAN - Cancelled.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+    <div key="12" onclick="toggleItem('12')">
+          <h3 class="faq_icon_wrap">Can I travel with only the PNR number?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>If your ticket is confirmed, then your PNR is enough for you to travel. Make sure to carry an authorized ID proof to be produced at the time of ticket checking.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+     <div key="13" onclick="toggleItem('13')">
+          <h3 class="faq_icon_wrap">What is the benefit of PNR status enquiry?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>You can access train PNR status and related information by conducting PNR status enquiry.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+        <div key="14" onclick="toggleItem('14')">
+          <h3 class="faq_icon_wrap">How to check PNR status via SMS?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>Check your PNR status by sending Hi on the Railbot number (+91-9538039911) to activate it.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+        <div key="15" onclick="toggleItem('15')">
+          <h3 class="faq_icon_wrap">Is PNR number allotted to unreserved tickets?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>No, PNR number is provided to only reserved tickets.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+      <div key="16" onclick="toggleItem('16')">
+          <h3 class="faq_icon_wrap">Can I travel with only a PNR number?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>Yes, you can show your PNR number along with ID proof for verification to TC at the time of travel.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+      <div key="17" onclick="toggleItem('17')">
+          <h3 class="faq_icon_wrap">How does the waitlisted ticket get confirmed?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>The chances of getting your tickets confirmed is when a passenger cancels their ticket.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+      <div key="18" onclick="toggleItem('18')">
+          <h3 class="faq_icon_wrap">When can you check your PNR status?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>After booking your train ticket online, you have the option to verify your PNR status.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+     <div key="19" onclick="toggleItem('19')">
+          <h3 class="faq_icon_wrap">Can I use my name to check PNR status?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+            <p>No, you must add the 10 digit PNR number to check PNR status.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+      <div key="20" onclick="toggleItem('20')">
+          <h3 class="faq_icon_wrap">Where is the PNR number printed on your ticket?<span class="icon icon-faq-arrow-down  arrow-ris"></span></h3>
+          <p class="faq-ans hide">
+           <p>You can check the PNR number on the top left of your train ticket.</p>
+          </p>
+        </div>
+        <hr class="horizontal-line">
+      <div class="seo-links-table">
+      <div>
+<h3>Top Train Routes</h3>
+      <div class="partition">
+            <div>
+              <ul class="routes-table">
+                <div class="seo_top_routes">
+                 <div>
+                    <li class="first-list  table-data"><a href="#">Chennai to Bangalore Trains</a></li>
+                  </div>
+                   <div>
+                    <li class="  table-data"><a href="#">Bangalore to Chennai Trains</a></li>
+                  </div>
+                  <div>
+                    <li class="  table-data"><a href="#">Chandigarh to Delhi Trains</a></li>
+                  </div>
+                  <div>
+                    <li class="  table-data"><a href="#">Mumbai to Pune Trains</a></li>
+                  </div>
+                  <div>
+                    <li class="  table-data"><a href="#">Ahmedabad to Mumbai Trains</a></li>
+                  </div>
+                <div>
+                    <li class="  table-data"><a href="#">Mumbai to Ahmedabad Trains</a></li>
+                  </div>
+                <div>
+                    <li class="  table-data"><a href="#">Delhi to Chandigarh Trains</a></li>
+                  </div>
+                <div>
+                    <li class="  table-data"><a href="#">Pune to Mumbai Trains</a></li>
+                  </div>
+               <div>
+                    <li class="  table-data"><a href="#">Lucknow to Delhi Trains</a></li>
+                  </div>
+                  <div>
+                    <li class=" last-list table-data"><a href="#">Delhi to Lucknow Trains</a></li>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+       </div>
+    <div>
+      <h3>Other Train Routes</h3>
+        <div class="partition">
+            <div>
+              <ul class="routes-table">
+                <div class="seo_top_routes">
+                 <div>
+                    <li class="first-list  table-data"><a href="#">Mumbai to Goa Trains</a></li>
+                  </div>
+                 <div>
+                    <li class="  table-data"><a href="#">Delhi to Katra Trains</a></li>
+                  </div>
+                  <div>
+                    <li class="  table-data"><a href="#">Delhi to Jaipur Trains</a></li>
+                  </div>
+                <div>
+                    <li class="  table-data"><a href="#">Bangalore to Mangalore Trains</a></li>
+                  </div>
+                  <div>
+                    <li class="  table-data"><a href="#">Delhi to Amritsar Trains</a></li>
+                  </div>
+                   <div>
+                    <li class="  table-data"><a href="#">Delhi to Chandigarh Trains</a></li>
+                  </div>
+                <div>
+                    <li class="  table-data"><a href="#">Delhi to Haridwar Trains</a></li>
+                  </div>
+              <div>
+                    <li class="  table-data"><a href="#">Delhi to Mumbai Trains</a></li>
+                  </div>
+              <div>
+                    <li class="  table-data"><a href="#">Gaya to Patna Trains</a></li>
+                  </div>
+                <div>
+                    <li class=" last-list table-data"><a href="#">Jaipur to Delhi Trains </a></li>
+                  </div>
+              </div>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <div>
+        <h3>Top Railway Stations</h3>
+          <div class="partition">
+            <div>
+              <ul class="routes-table">
+                <div class="seo_top_routes">
+                  <div>
+                    <li class="first-list  table-data"><a href="#">New Delhi</a></li>
+                  </div>
+                <div>
+                    <li class="  table-data"><a href="#">Mumbai Central</a></li>
+                  </div>
+            <div>
+                    <li class="  table-data"><a href="#">Secunderabad Junction</a></li>
+                  </div>
+                  <div>
+                    <li class="  table-data"><a href="#">MGR Chennai Central</a></li>
+                  </div>
+                <div>
+                    <li class="  table-data"><a href="#">Patna Junction</a></li>
+                  </div>
+                 <div>
+                    <li class="  table-data"><a href="#">Jaipur Junction</a></li>
+                  </div>
+                 <div>
+                    <li class="  table-data"><a href="#">Howrah Junction</a></li>
+                  </div>
+                  <div>
+                    <li class="  table-data"><a href="#">KSR Bengaluru City Junction</a></li>
+                  </div>
+                  <div>
+                    <li class="  table-data"><a href="#">Pune Junction</a></li>
+                  </div>
+                  <div>
+                    <li class=" last-list table-data"><a href="#">Kanpur Central</a></li>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+      </div>
+</div>
+
+<footer class="footer-wrapper">
+            <div class="footer-center">
+                <div class="left-block">
+                    <div class="footer-col">
+                        <p class="footer-col-heading">About Redbus</p>
+                        <ul class="footer-list">
+                            <li><a class="footer-links" href="#"> About us</a></li>
+                            <li><a class="footer-links" href="#"> Contact us</a></li>
+                            <li><a class="footer-links" href="#"> Mobile Version</a></li>
+                            <li><a class="footer-links" href="#"> redBus on Mobile</a></li>
+                            <li><a class="footer-links" href="#"> Sitemap</a></li>
+                            <li><a class="footer-links" href="#"> Offers</a></li>
+                            <li><a class="footer-links" href="#"> Careers</a></li>
+                            <li><a class="footer-links" href="#"> Values</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <p class="footer-col-heading">Info</p>
+                        <ul class="footer-list">
+                            <li><a class="footer-links" href="#"> Terms and Conditions</a></li>
+                            <li><a class="footer-links" href="#"> Privacy Policy</a></li>
+                            <li><a class="footer-links" href="#"> FAQ</a></li>
+                            <li><a class="footer-links" href="#"> Blog</a></li>
+                            <li><a class="footer-links" href="#"> Bus Operator Registeration</a></li>
+                            <li><a class="footer-links" href="#"> Agent Registeration</a></li>
+                            <li><a class="footer-links" href="#"> Insurance Partner</a></li>
+                            <li><a class="footer-links" href="#"> User Agreement</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col"><p class="footer-col-heading">Global Sites</p>
+                        <ul class="footer-list">
+                            <li><a class="footer-links" href="#"> India</a></li>
+                            <li><a class="footer-links" href="#"> Singapore</a></li>
+                            <li><a class="footer-links" href="#"> Malaysia</a></li>
+                            <li><a class="footer-links" href="#"> Indonesia</a></li>
+                            <li><a class="footer-links" href="#"> Peru</a></li>
+                            <li><a class="footer-links" href="#"> Columbia</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col"><p class="footer-col-heading">Our Partners</p>
+                        <ul class="footer-list">
+                            <li><a class="footer-links" href="#"> Goibibo Bus</a></li>
+                            <li><a class="footer-links" href="#"> Goibibo Hotels</a></li>
+                            <li><a class="footer-links" href="#" rel="nofollow"> Makemytrip Bus</a></li>
+                            <li><a class="footer-links" href="#"> Makemytrip Hotels</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="img-desc"><img alt="redbus_logo" src="rb_logo.svg"></div>
+                    <p class="footer-about">redBus is the worlds largest online bus ticket booking service trusted by over 8 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</p>
+                    <p class="footer-about">Ⓒ 2024 Redbus India Private Limited (formerly known as ‘Ibibo Group Private Limited’). </p>
+                </div>
+            </div>
+        </footer> 
+      </div>  
+</body>
+</html>

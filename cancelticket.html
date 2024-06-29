@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700" as="style" fetchpriority="high" crossorigin onload="this.rel='stylesheet'">
+
+        <link rel="stylesheet" href="Account.css">
+        <title>CANCEL TICKET</title>
+    </head>
+<body>
+    <header id="main_header_new">
+        <link rel="preload" href="assets/rdc-redbus-logo.png" as="image" fetchpriority="high">
+        <div class= 'rb_header '>
+            <a href="index.html">
+            <picture>
+                <source src="assets/rdc-redbus-logo.png" type="image/webp">
+                <img src="assets/rdc-redbus-logo.png" alt="redBus" class="rb_logo" title="redBus">
+            </picture>
+        </a>
+            <span class="vertical_seperator"></span>
+            <ul class="rb_verticals">
+            <a href="index.html" class="header_dropdown_menu_a_j">
+                <li class="rb_vertical link active" id="bus_tickets_vertical" data-url="https://www.redbus.in/bus-tickets">
+                            <img class="img_rb_vertical" src="assets/rdc-redbus-logo.png" alt="Online Bus Tickets Booking" title="Online Bus Tickets Booking">
+                        <span class="name_rb_vertical">Bus Tickets</span>
+                </li>
+            </a>
+            <a href="booktraintickets.html" class="header_dropdown_menu_a_j">
+                <li class="rb_vertical link " id="rail_tickets_vertical" data-url="https://www.redbus.in/railways">
+                            <div class="img_rb_vertical_wrap">
+                                <div class="img_new_wrap">
+                                    <img class="img_rb_vertical" src="assets/rail_vertical.svg" alt="Online Train Tickets Booking" title="Online Train Tickets Booking">
+                                    <span class="img_tag">&#x20B9;80 off</span>
+                                </div>
+                            </div>
+                        <span class="name_rb_vertical">Train Tickets</span>
+                </li>
+            </a>
+            </ul>
+            <ul class="rb_secondary_items">
+                <a href="help.html" class="header_dropdown_menu_a_j">
+                <li data-text="Help" class="rb_secondary_item" id="help_redcare" data-isredirect="True" data-url="/info/redcare">
+                    <div class="rb_main_secondary_item  link">
+                        <img src="assets/headphones.png" class="icon_rb_secondary_item" alt="">
+                            <span class="name_rb_secondary_item">Help</span>
+                    </div>
+                </li>
+                </a>
+                <li data-text="Account" class="rb_secondary_item" id="account_dd" data-isredirect="False" data-url="">
+                    <div class="rb_main_secondary_item link">
+                        <img src="assets/user.png" class="icon_rb_secondary_item" alt="">
+                            <span class="name_rb_secondary_item">Account +</span>
+                        <i class="icon icon-down icon_secondary_item_more"></i>
+                    </div>
+                    <div class="dropdown_wrap">
+                        <section class="header_dropdown_menu">
+                            <a href="cancelticket.html" class="header_dropdown_menu_a">
+                            <option data-text = "Cancel Ticket" class="header_dropdown_item" id="cancel_ticket" data-url="/Cancellation">
+                                <span class="header_dropdown_item_name" data-headdispval="">Cancel Ticket</span>
+                            </option>
+                            </a>
+                            <a href="changetraveldate.html" class="header_dropdown_menu_a">
+                            <option data-text = "Change Travel Date"class="header_dropdown_item" id="reschedule_ticket" data-url="/Reschedule">
+                                <span class="header_dropdown_item_name" data-headdispval="">Change Travel Date</span>
+                            </option>
+                            </a>
+                            <a href="showticketdate.html" class="header_dropdown_menu_a">
+                            <option data-text = "Show My Ticket"class="header_dropdown_item" id="ticket_details" data-url="/Home/PrintTicket">
+                                <span class="header_dropdown_item_name" data-headdispval="">Show My Ticket</span>
+                            </option>
+                            </a>
+                            <a href="SMS&EMAIL.html" class="header_dropdown_menu_a">
+                            <option data-text = "Email/SMS"class="header_dropdown_item" id="smsandemail_ticket" data-url="/Home/SmsAndEmailTicket">
+                                <span class="header_dropdown_item_name" data-headdispval="">Email/SMS</span>
+                            </option>
+                            </a>
+                            <span class="horizontal_seperator"></span>
+                            <a href="Login/login.html" class="header_dropdown_menu_a">
+                            <option data-text = "Login/ Sign Up"class="header_dropdown_item" id="user_sign_in_sign_up" data-url="">
+                                <span class="header_dropdown_item_name" data-headdispval="">Login/ Sign Up</span>
+                            </option>
+                            </a>
+                        </section>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+       
+    <div id="root" >
+        <div class="cancellation-form-main">
+                <div class="cancel-ticket-heading">Cancel your Ticket</div>
+                <div class="cancellation-form-container">
+                    <div class="input-form-container">
+                        <div class="m-r-56">
+                            <div class="input-component">
+                                <div class="label-css"></div>
+                                <div class="css-icon">
+                                    <img src="assets/tickets.png" alt="">
+                                </div>
+                                    <input class="input-box input-text" name="tin" type="text" placeholder="ENTER TICKET NO" value="">
+                                <div class="error-message"></div>
+                            </div>
+                        </div>
+                        <div class="countryCode_phoneno">
+                            <span class="cc-k">
+                                <ul id="selectedPhCode" data-cntrycode="IND" class="select_input_code">+ 91</ul>
+                            </span>
+                            <span class="country-code-container hide">
+                                <div class="country-code-block bg-fff">
+                                    <div class="search-block-template">
+                                            <div class="search-block">
+                                            <span class="search-icon">
+                                                <span class="icon icon-search">
+                                                </span>
+                                            </span>
+                                            <input type="text" class="cnInp" id="cntryInput" placeholder="Search for country...">
+                                        </div>
+                                    </div>
+                                </div> 
+                            </span>
+                            <div class="input-component">
+                                <div class="label-css"></div>
+                                
+                                <input class="input-box input-text" name="mobileno" type="" placeholder="ENTER MOBILENO" value="">
+                                <div class="error-message"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-select-passenger-container">
+                        <div class="button-comp-lbl bg-color-d84e55">Select Passengers</div>
+                    </div>
+                </div>
+        </div>
+        <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <div class="footer-logo">
+                            <img src="assets/rdc-redbus-logo.png" alt="redBus" class="" title="redBus">
+                        </div>
+                        <br>
+                        <div>
+                            <p class="size">RedBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.</p>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h3>About redBus</h3>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Mobile version</a></li>
+                            <li><a href="#">redBus on mobile</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Offers</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Values</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Info</h3>
+                        <ul>
+                            <li><a href="#">T&C</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Bus operator registration</a></li>
+                            <li><a href="#">Agent registration</a></li>
+                            <li><a href="#">Insurance partner</a></li>
+                            <li><a href="#">User agreement</a></li>
+                            <li><a href="#">Primo Bus</a></li>
+                            <li><a href="#">Bus Timetable</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Global Sites</h3>
+                        <ul>
+                            <li><a href="#">India</a></li>
+                            <li><a href="#">Singapore</a></li>
+                            <li><a href="#">Malaysia</a></li>
+                            <li><a href="#">Indonesia</a></li>
+                            <li><a href="#">Peru</a></li>
+                            <li><a href="#">Colombia</a></li>
+                            <li><a href="#">Cambodia</a></li>
+                            <li><a href="#">Vietnam</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Our Partners</h3>
+                        <ul>
+                            <li><a href="#">Goibibo Bus</a></li>
+                            <li><a href="#">Goibibo Hotels</a></li>
+                            <li><a href="#">Makemytrip Hotels</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr/>
+                <div class="footer-bottom">
+                    <p>© 2024 Redbus India Pvt Ltd. All rights reserved</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/redBus.in/"><img src="assets/social_facebook_new.svg" alt="Facebook" width="20"></a>
+                        <a href="https://www.linkedin.com/company/redbus_2/?originalSubdomain=in"><img src="assets/social_linkedin_new.svg" alt="LinkedIn" width="20"></a>
+                        <a href="https://x.com/redBus_in/"><img src="assets/social_twitter_new.svg" alt="Twitter" width="20"></a>
+                        <a href="https://www.instagram.com/accounts/login/?next=/redbusindia"><img src="assets/social_instagram_new.svg" alt="Instagram" width="20"></a>
+                    </div>
+                </div>
+        </footer>
+    </div>
+    </header>
+</body>
+</html>

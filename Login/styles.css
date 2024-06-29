@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: #f0f0f0;
+    width: 1000px;
+    align-items: center;
+    padding-left: 250px;
+    padding-top: 150px;
+    font-family: Montserrat;
+}
+
+#signInView {
+    width: 702px;
+    height: 515px;
+}
+
+.container {
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.promo-section {
+    background-color: #ff6f61;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-size: cover;
+    background-image: url("https://s3.rdbuz.com/Images/webplatform/contextualLogin/desktop-payment-offers.svg");
+    height: 30.1rem;
+    width: 346px;
+    flex-direction: column;
+}
+
+
+.promo-section h1 {
+    margin-bottom: 20px;
+}
+
+.promo-section p{
+    color: white;
+    font-size: 1.7rem;
+}
+
+.signin-section {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.signin-section h2 {
+    margin-bottom: 20px;
+    color: #ff6f61;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #34495e;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.form-group .phone{
+    width: 3rem ;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.form-group .phone1{
+    border: none;
+}
+
+
+.form-group input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.otp-button, .google-button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 370px;
+    text-align: center;
+    overflow: hidden;
+    font: normal 15px / 1.4 Montserrat;
+}
+
+.google-button {
+    background-color: #4285F4;
+    width: 190px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1px;
+
+}
+
+.google-button .google-image{
+    width: 1.3rem;
+    height: 1.3rem;
+    padding-left: auto;
+    margin-right: auto;
+    margin-top: -1px;
+    padding-top: 3px;
+    margin-right: 4px;
+}
+
+.terms {
+    font-size: 12px;
+    color: #666;
+}
+
+.terms a {
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.image {
+    margin-top: 0.2rem;
+    height: 38px;
+    margin-bottom: 8px;
+    background: 154px no-repeat;
+    margin-left: -300px;
+}
+
+
+/* make a responsive login page */
+
+/* Default styles */
+/* ... (existing CSS code) ... */
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    body {
+      padding-left: 0;
+      padding-top: 50px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    #signInView {
+      width: 100%;
+      height: auto;
+    }
+  
+    .container {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .promo-section {
+      width: 21rem;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .promo-section p {
+      font-size: 1.2rem;
+    }
+  
+    .signin-section {
+      padding: 20px;
+    }
+  
+    .signin-section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .form-group {
+      margin-bottom: 10px;
+    }
+  
+    .otp-button,
+    .google-button {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  
+    .google-button {
+      width: 100%;
+    }
+  }
+  
+  /* Responsive styles for tablets */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      padding-left: 0px;
+      padding-top: 100px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    #signInView {
+      width: 90%;
+      height: auto;
+    }
+  
+    .promo-section {
+      width: 50%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .promo-section p {
+      font-size: 1.4rem;
+    }
+  
+    .signin-section {
+      padding: 30px;
+    }
+  
+    .signin-section h2 {
+      font-size: 1.4rem;
+    }
+  
+    .form-group {
+      margin-bottom: 15px;
+    }
+  
+    .otp-button,
+    .google-button {
+      width: 80%;
+      font-size: 1rem;
+    }
+  
+    .google-button {
+      width: 40%;
+    }
+  }
+
+
+  @media (max-width: 767px )  {
+    body {
+      padding-left: 0;
+      padding-top: 50px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    #signInView {
+      width: 100%;
+      height: auto;
+    }
+  
+    .container {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .promo-section {
+      width: 93%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .promo-section p {
+      font-size: 1.2rem;
+    }
+  
+    .signin-section {
+      padding: 20px;
+    }
+  
+    .signin-section h2 {
+      font-size: 1.2rem;
+    }
+  
+    .form-group {
+      margin-bottom: 10px;
+    }
+  
+    .otp-button,
+    .google-button {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  
+    .google-button {
+      width: 100%;
+    }
+  }

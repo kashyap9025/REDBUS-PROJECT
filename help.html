@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redBus Help Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D32F2F;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+            padding: 10px; 
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            flex-wrap: wrap; 
+        }
+        .left-panel, .right-panel {
+            box-sizing: border-box; 
+        }
+        .left-panel {
+            width: 30%;
+            background-color: #fff;
+            color: #000;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            max-height: 80vh;
+            padding: 10px; 
+        }
+        .right-panel {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10px; 
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #F8F9FA;
+        }
+        .header h1 {
+            font-size: 18px;
+            color: #D32F2F;
+            margin: 0;
+        }
+        .header .language {
+            font-size: 14px;
+            color: #020712e4;
+            margin: 0px 0px 0px 4px;
+        }
+        .login {
+            padding: 20px;
+            font-size: 14px;
+            background-color: #F8F9FA;
+            display: flex;
+            align-items: center;
+        }
+        .login img {
+            margin-right: 10px;
+        }
+        .login a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .faq {
+            padding: 20px;
+        }
+        .faq h2 {
+            font-size: 16px;
+            margin: 0 0 10px 0;
+        }
+        .faq-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .faq-buttons a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #333;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .faq-buttons a img {
+            margin-right: 5px;
+        }
+        .other-topics {
+            padding: 20px;
+            background-color: #F8F9FA;
+        }
+        .other-topics h2 {
+            font-size: 16px;
+            margin: 0 0 10px 0;
+        }
+        .topic {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-top: 1px solid #ccc;
+        }
+        .topic:first-child {
+            border-top: none;
+        }
+        .topic img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .topic-content {
+            display: flex;
+            align-items: center;
+        }
+        .topic h3 {
+            font-size: 14px;
+            margin: 0;
+            color: #333;
+        }
+        .topic p {
+            font-size: 12px;
+            color: #999;
+            margin: 0;
+        }
+        .topic a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 14px;
+        }
+        .right-panel h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+        .right-panel img {
+            width: 100%;
+            max-width: 564px;
+            margin: 20px 0px 0px;
+        }
+        .right-panel p {
+            font-size: 32px;
+            margin: 40px 0px 0px 20px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                width: 100%;
+            }
+            .left-panel, .right-panel {
+                width: 100%;
+                text-align: center;
+            }
+            .right-panel img {
+                width: 100%;
+                margin: 20px 0px;
+            }
+            .right-panel p {
+                font-size: 24px;
+                margin: 20px 0px;
+            }
+            .header {
+                flex-direction: column;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+        }
+        @media (max-width: 480px) {
+            .right-panel h1 {
+                font-size: 36px;
+            }
+            .right-panel p {
+                font-size: 18px;
+                margin: 10px 0px;
+            }
+            .right-panel img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="faq">
+                <div class="header">
+                    <h1>red:Buddy</h1>
+                    <div class="language">English</div>
+                </div>
+                <div class="login">
+                    <img src="https://www.redbus.in/help/images/Question_Mark.svg" alt="login?" width="75" height="75">
+                    <div>
+                        <p>Have a query related to your bookings or on your previous concerns?</p>
+                        <a href="#">Login to your account</a>
+                    </div>
+                </div>
+            </div>
+            <div class="faq">
+                <h2>FAQs (Select a Help Topic)</h2>
+                <div class="faq-buttons">
+                    <a href="#"><img src="https://st.redbus.in/Images/Selfhelp/redbuslogo_v.svg" class="icon" alt="redBus Icon"> Bus Tickets</a>
+                    <a href="#"><img src="https://st.redbus.in/Images/Selfhelp/redraillogo_v.svg" class="icon" alt="redRail Icon"> Train Tickets</a>
+                </div>
+            </div>
+            <div class="other-topics">
+                <h2>Other topics</h2>
+                <div class="topic">
+                    <div class="topic-content">
+                        <img src="https://st.redbus.in/Images/Selfhelp/technical_issues.svg" alt="Technical Issues Icon">
+                        <div>
+                            <h3>Technical Issues</h3>
+                            <p>Need some technical help?</p>
+                        </div>
+                    </div>
+                    <a href="#">&#x2192;</a>
+                </div>
+                <div class="topic">
+                    <div class="topic-content">
+                        <img src="https://st.redbus.in/Images/SelfHelp/referral.svg" alt="Referral Help Icon">
+                        <div>
+                            <h3>redBus Referral Help</h3>
+                            <p>Need help with redBus referral ...</p>
+                        </div>
+                    </div>
+                    <a href="#">&#x2192;</a>
+                </div>
+                <div class="topic">
+                    <div class="topic-content">
+                        <img src="https://st.redbus.in/Images/Selfhelp/bus_booking_help.svg" alt="New Booking Help Icon">
+                        <div>
+                            <h3>New bus booking help</h3>
+                            <p>Bus availability/ Child fare, Lug...</p>
+                        </div>
+                    </div>
+                    <a href="#">&#x2192;</a>
+                </div>
+                <div class="topic">
+                    <div class="topic-content">
+                        <img src="https://st.redbus.in/Images/SelfHelp/offers.svg" alt="Offers Icon">
+                        <div>
+                            <h3>Offers</h3>
+                            <p>Need help with offers?</p>
+                        </div>
+                    </div>
+                    <a href="#">&#x2192;</a>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <h1>redBus Help</h1>
+            <img src="https://s3.rdbuz.com/Images/webplatform/Common/rc_artboard.jpg" alt="Customer Support">
+            <p>24/7 Customer Support</p>
+        </div>
+    </div>
+</body>
+</html>

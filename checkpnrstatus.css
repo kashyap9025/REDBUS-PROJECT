@@ -1,0 +1,1853 @@
+
+.breadcrumb-wrapper {
+    position: relative;
+    top: -1.5rem;
+    margin-bottom: 1rem
+}
+
+.breadcrumb-wrapper .breadcrumb-content {
+    width: var(--max-width);
+    display: flex;
+    margin: 0 auto
+}
+
+.breadcrumb-wrapper .crumb-link {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.breadcrumb-wrapper .crumb-link,.breadcrumb-wrapper .crumb-link .crumb-href {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.31px;
+    color: #9f9eff!important
+}
+
+.breadcrumb-wrapper .crumb-link .crumb-href:hover,.breadcrumb-wrapper .crumb-link .crumb-href:visited {
+    color: #9f9eff!important
+}
+
+.breadcrumb-wrapper .crumb-dstn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.31px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.seo_main_wrap {
+    position: relative;
+    top: 3rem;
+    padding-left: 70px;
+    padding-right: 70px
+}
+
+.seo-links-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 48px;
+    grid-gap: 40px;
+    gap: 40px
+}
+
+.seo-links-table h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.seo-links-table .routes-table::-webkit-scrollbar {
+    width: 6px;
+    background-color: #fff
+}
+
+.seo-links-table .routes-table::-webkit-scrollbar-thumb {
+    border-radius: 32px;
+    background-color: #b0b0b0
+}
+
+.seo-links-table .routes-table {
+    list-style-type: none;
+    padding: 0;
+    width: 288px;
+    height: 352px;
+    overflow-y: scroll;
+    border: 1px solid #d1d1d1;
+    border-radius: 15px
+}
+
+.seo-links-table .last-list {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-collapse: collapse
+}
+
+.seo-links-table .table-data {
+    border-top: 1px solid #d1d1d1;
+    border-collapse: collapse;
+    padding: 12px 16px;
+    font-size: 12px;
+    line-height: 15px
+}
+
+.seo-links-table .first-list {
+    border-top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.seo-links-table a {
+    color: #1034d9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none
+}
+
+.seo_item_wrap {
+    background: #fff;
+    padding: 1rem 1rem 1.25rem;
+    color: #3e3e52;
+    margin-bottom: .25rem
+}
+
+.seo_item_wrap h1,.seo_item_wrap h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px
+}
+
+.seo_item_wrap h3 {
+    font-size: 14px;
+    line-height: 17px
+}
+
+.seo_item_wrap p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: flex-start
+}
+
+.seo_item_wrap p ul {
+    list-style-position: outside!important
+}
+
+.seo_item_wrap p li::marker {
+    font-size: 10px
+}
+
+.seo_item_wrap .table1 {
+    padding-right: 30px;
+    width: 50%
+}
+
+.seo_item_wrap .table2 {
+    width: 50%
+}
+
+.seo_item_wrap .seo_item_desc {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    background: #465986;
+    color: #fff;
+    width: 360px
+}
+
+.seo_item_wrap .flex-container {
+    display: flex
+}
+
+.seo_item_wrap .row {
+    height: 34.5px
+}
+
+.seo_item_wrap table,.seo_item_wrap td,.seo_item_wrap th {
+    border: 1px solid #d1d1d1;
+    border-collapse: collapse
+}
+
+.seo_item_wrap td,.seo_item_wrap th {
+    padding: .5rem;
+    font-size: 12px;
+    line-height: 15px
+}
+
+.seo_item_wrap .seo_item_abbr {
+    text-align: center;
+    background: #465986;
+    color: #fff;
+    width: 100px
+}
+
+.seo_item_wrap .seo_red_data {
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3e3e52;
+    font-weight: 700;
+    background: #faf1f2
+}
+
+.seo_item_wrap li {
+    display: list-item
+}
+
+.seo_item_wrap .red_steps,.seo_item_wrap strong {
+    color: #d84e55;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px
+}
+
+.seo_item_wrap .red_steps_content {
+    line-height: 40px
+}
+
+.seo_item_wrap .faq_icon_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.seo_item_wrap .faq_icon_wrap h3 {
+    color: #3e3e52;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    height: 56px
+}
+
+.seo_item_wrap .horizontal-line {
+    border: 1px solid #e5e5e5;
+    align-self: stretch
+}
+
+.seo_item_wrap .hide {
+    display: none
+}
+
+.seo_item_wrap .arrow-ris {
+    font-size: 9px;
+    cursor: pointer
+}
+
+.pnrstatus_dweb_main_wrap .banner-wrapper {
+    height: 27rem;
+    padding-top: 6.2rem
+}
+
+.pnrstatus_dweb_main_wrap .breadcrumb-wrapper {
+    padding: 8px 0;
+    background: #1d1d1d;
+    margin-bottom: 0
+}
+
+.pnrstatus_dweb_main_wrap .banner {
+    height: 350px;
+    border-radius: 0;
+    position: relative;
+    top: -1.5rem
+}
+
+.pnrstatus_dweb_main_wrap .marginTop {
+    margin-top: 3.3rem
+}
+
+.pnrstatus_dweb_main_wrap .irctc {
+    padding-left: 1rem
+}
+
+.pnr-desktop-container {
+    min-height: calc(100vh - 314px);
+    padding: 0 33%;
+    background: #e0e0e0
+}
+
+.pnr-desktop-landing {
+    margin: 0 auto;
+    width: var(--max-width);
+    background: #fff
+}
+
+.pnr_err_wrapper {
+    background: #fff;
+    min-height: calc(100vh - 150px)
+}
+
+.pnr_stat_main_wrap {
+    background: hsla(0,0%,89.8%,.5)
+}
+
+.seo_main_wrap {
+    top: 1rem!important
+}
+
+.seo_main_wrap_ssr {
+    margin: 0 auto;
+    width: var(--max-width);
+    background: #fff
+}
+
+.pnr_stat_header_wrap {
+    background: #fff;
+    margin-top: 4.7rem;
+    width: 100%
+}
+
+.pnr_stat_header_wrap .pnr_chk_stat_btn_wrap {
+    background: #fff;
+    position: relative;
+    top: 3rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem
+}
+
+.pnr_stat_header_wrap .pnr_stat_header {
+    padding: 1.125rem 1.25rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    background: #fff
+}
+
+.pnr_stat_header_wrap .pnr_stat_header .pnr_stat_header_text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .25px;
+    color: #3e3e52;
+    margin-left: 1.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.pnr_stat_header_wrap .pnr_chk_stat_btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    background: #d84e55;
+    border-radius: 4px;
+    margin: 1rem
+}
+
+.pnr_stat_header_wrap .pnr_disabled {
+    opacity: .3
+}
+
+.pnr-new-input-wrap {
+    padding: 0 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4rem
+}
+
+.pnr-new-input-wrap input {
+    width: 100%;
+    padding: 14px 16px;
+    letter-spacing: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #3e3e52;
+    border-radius: 4px;
+    outline: none;
+    text-align: center
+}
+
+.cursor {
+    position: relative
+}
+
+.cursor input {
+    -moz-user-select: text;
+    user-select: text;
+    -webkit-user-select: text
+}
+
+.cursor i {
+    position: absolute;
+    width: 2px;
+    height: 45%;
+    background-color: #cacaca;
+    left: 6px;
+    top: 25%;
+    transform: rotate(90deg)
+}
+
+.cursor input:focus+i {
+    animation-name: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: infinite
+}
+
+input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.display_none {
+    visibility: hidden
+}
+
+@keyframes blinking {
+    50% {
+        background-color: #1034d9
+    }
+}
+
+.err_pnr_text {
+    font-weight: 400;
+    line-height: 24px
+}
+
+.err_main_header {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: .25px;
+    color: #3e3e52;
+    margin: 0 1.5rem .5rem
+}
+
+.ris_pnr_details_main_wrap .pnr_note {
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3e3e52;
+    background: #e9f0ff;
+    margin-top: -.5rem
+}
+
+.ris_pnr_details_main_wrap .red_bg {
+    background: #bc2931
+}
+
+.ris_pnr_details_main_wrap .green_bg {
+    background: #36b077
+}
+
+.ris_pnr_details_main_wrap .yellow_bg {
+    background: #e68600
+}
+
+.ris_pnr_details_main_wrap .ris_pnr_overall_status {
+    padding: .5rem;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center
+}
+
+.ris_pnr_details_main_wrap .ris_pnr_overall_status img {
+    margin: 0 10px
+}
+
+.ris_pnr_details_main_wrap .ris_pnr_chart_status_block {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3e3e52
+}
+
+.ris_pnr_details_main_wrap .red_styes {
+    color: #bc2931
+}
+
+.ris_pnr_details_main_wrap .generic_styles {
+    color: #3e3e52;
+    letter-spacing: .25px;
+    background: #fff5e5
+}
+
+.ris_pnr_details_main_wrap .pnr_train_src_details_wrap {
+    background: #fff
+}
+
+.ris_pnr_details_main_wrap .pnr_train_src_details_wrap .pnr_train_quota_wrap {
+    padding: 1.5rem 1rem .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3e3e52
+}
+
+.ris_pnr_details_main_wrap .book_return_wrapper,.ris_pnr_details_main_wrap .pnr_decode_section,.ris_pnr_details_main_wrap .pnr_pass_section {
+    border-bottom: none!important;
+    margin-bottom: .5rem;
+    background: #fff
+}
+
+.ris_pnr_details_main_wrap .book_return_wrapper .pnr_pass_table,.ris_pnr_details_main_wrap .pnr_decode_section .pnr_pass_table,.ris_pnr_details_main_wrap .pnr_pass_section .pnr_pass_table {
+    border: 1px solid #8e8e8e;
+    border-radius: 8px;
+    box-shadow: 0 .33333px 1.5px rgba(0,0,0,.04),0 1.25px 5px rgba(0,0,0,.19)
+}
+
+.ris_pnr_details_main_wrap .book_return_wrapper .pnr_pass_table .ris_pnr_chart_status,.ris_pnr_details_main_wrap .pnr_decode_section .pnr_pass_table .ris_pnr_chart_status,.ris_pnr_details_main_wrap .pnr_pass_section .pnr_pass_table .ris_pnr_chart_status {
+    background: #f1f1f1;
+    border-radius: 8px 8px 0 0;
+    padding: .5rem .75rem
+}
+
+.ris_pnr_details_main_wrap .book_return_wrapper .pnr_pass_table .ris_pnr_chart_status .pnr_updated_txt,.ris_pnr_details_main_wrap .pnr_decode_section .pnr_pass_table .ris_pnr_chart_status .pnr_updated_txt,.ris_pnr_details_main_wrap .pnr_pass_section .pnr_pass_table .ris_pnr_chart_status .pnr_updated_txt {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7e7e8c
+}
+
+.ris_pnr_details_main_wrap .book_return_wrapper {
+    border-bottom: 1px solid #e5e5e5!important;
+    margin-bottom: unset
+}
+
+.ris_pnr_details_main_wrap .pnr_pass_section {
+    margin-top: -1rem
+}
+
+.ris_pnr_details_main_wrap .dept_wrapper {
+    padding-top: 0!important;
+    margin-bottom: 0;
+    background: #fff
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper {
+    padding: 1rem
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_dept_arr_time {
+    font-size: 12px;
+    line-height: 16px;
+    color: #3e3e52;
+    display: flex;
+    justify-content: space-between
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_duration_wrap {
+    display: flex;
+    align-items: center
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_duration_wrap hr {
+    width: 12px;
+    height: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_duration_wrap .duration {
+    text-align: center
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_duration_wrap .duration .duration_text {
+    background: #fff;
+    padding: 0 4px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #3e3e52;
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_station_names_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_station_names_wrap .right_align {
+    text-align: right
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_station_names_wrap .pnr_stn_name {
+    font-size: 12px;
+    line-height: 16px;
+    color: #3e3e52;
+    width: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_station_names_wrap .pnr_stn_code {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3e3e52
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_pass_block {
+    padding: .875rem .75rem
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_passenger_status_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_passenger_status_section .passenger_name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3e3e52
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_passenger_status_section .opacity {
+    opacity: .38
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_passenger_status_section .green_txt,.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_passenger_status_section .red_txt,.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_passenger_status_section .yellow_txt {
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: #3e3e52;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_passenger_status_section .green_txt {
+    background: #e3fff2
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_passenger_status_section .yellow_txt {
+    background: #fff5e5
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_passenger_status_section .red_txt {
+    background: #fae5e5
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_coach_seat_details {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_coach_seat_details .green_txt,.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_coach_seat_details .red_txt,.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_coach_seat_details .yellow_txt {
+    background: none!important;
+    padding: unset!important;
+    text-align: left!important
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_coach_seat_details .green_txt {
+    color: #0e7143
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_coach_seat_details .yellow_txt {
+    color: #8c5100
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_coach_seat_details .red_txt {
+    color: #bc2931
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .border_pass_btm {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_book_return_head {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3e3e52;
+    padding-bottom: .5rem
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_return_src_dst {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3e3e52;
+    padding-bottom: .5rem
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .book_return_dates_wrap {
+    display: flex;
+    padding-bottom: 1.5rem;
+    overflow-x: auto
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .book_return_dates_wrap .return_date_box {
+    font-size: 12px;
+    line-height: 15px;
+    color: #3e3e52;
+    padding: 1rem .75rem;
+    margin-right: .5rem;
+    border: 1px solid #3e3e52;
+    border-radius: 4px;
+    min-width: 5rem;
+    cursor: pointer
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .book_return_dates_wrap::-webkit-scrollbar {
+    display: none
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .select_another_date {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1034d9;
+    text-align: left
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_decode_overflow_wrap {
+    display: flex;
+    grid-gap: .75rem;
+    gap: .75rem
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .decode_data_wrap_main a {
+    text-decoration: none
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_decode_overflow_wrap_main {
+    overflow-x: auto
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_decode_overflow_wrap_main::-webkit-scrollbar {
+    display: none
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .decode_data_wrap .decode_img {
+    width: 11.8rem;
+    height: 7.5rem;
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,.15);
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+    border-radius: 8px
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .decode_data_wrap .pnr_decode_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3e3e52;
+    padding-top: .3rem
+}
+
+.ris_pnr_details_main_wrap .pnr_general_wrapper .decode_data_wrap .pnr_decode_min_read {
+    font-size: 12px;
+    line-height: 16px;
+    color: #7e7e8c
+}
+
+.ris_pnr_details_main_wrap .pnr_disclaimerMsg {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .15px;
+    color: #3e3e52;
+    padding-bottom: 4rem;
+    margin: 1rem 1rem 0
+}
+
+.consistent-distance-header {
+    margin-top: 2rem
+}
+
+.marginTop {
+    margin-top: 5rem
+}
+
+.recent_pnr_search_wrap {
+    padding: 1.5rem 1rem 1rem;
+    background: #fcfcfc;
+    margin-top: 2rem
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap {
+    width: var(--max-width);
+    margin: 0 auto
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_head {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3e3e52;
+    padding-bottom: 1.5rem
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_carousel_wrap {
+    display: flex;
+    position: relative
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_carousel_wrap .icon-left {
+    position: absolute;
+    top: 26%;
+    left: -5rem;
+    cursor: pointer
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_carousel_wrap .icon-right {
+    position: absolute;
+    top: 26%;
+    right: -5rem;
+    cursor: pointer
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap {
+    display: flex;
+    grid-gap: 16px;
+    gap: 16px;
+    overflow-x: auto;
+    width: var(--max-width);
+    padding: 0 .5rem;
+    position: relative
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 .33333px 1.5px rgba(0,0,0,.039),0 1.25px 5px rgba(0,0,0,.19);
+    border-radius: 12px;
+    color: #3e3e52;
+    margin-right: .5rem;
+    width: 400px;
+    height: 150px;
+    cursor: pointer
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .recent_train_pnr_wrap {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 1rem
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .recent_train_pnr_wrap>div {
+    display: flex;
+    max-width: calc(100vw - 55%)
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .src_dst_recent {
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: .25rem
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .src_dst_recent_time {
+    padding-bottom: .75rem
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .chk_stat_blue {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1034d9;
+    text-align: right
+}
+
+.recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap::-webkit-scrollbar {
+    display: none
+}
+
+.recent_trainname,.recent_trainname_src_dst {
+    display: inline-block;
+    width: calc(100vw - 60%);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize
+}
+
+.recent_trainname {
+    max-width: 9.5rem
+}
+
+.extra_margin {
+    margin-bottom: 1.5rem
+}
+
+.pnr_bck_arr {
+    width: 2rem;
+    height: 1rem;
+    color: var(--clr-gray-3);
+    cursor: pointer
+}
+
+.reduce_top {
+    top: 0!important;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.reduce_top .interlink_each_itm {
+    background: #fcfcfc;
+    filter: drop-shadow(0 0 1px rgba(0,0,0,.039)) drop-shadow(0 .5px 1.5px rgba(0,0,0,.19));
+    border-radius: 12px 12px 8px 8px!important;
+    border: none!important;
+    font-size: 11px!important
+}
+
+.modal-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 990;
+    background: rgba(0,0,0,.54);
+    width: 100%
+}
+
+.modal-mask .btm-modal-wrap,.modal-mask .ris_common_banner_img {
+    border-radius: 28px 28px 0 0!important
+}
+
+.modal-mask .btm-modal-wrap {
+    background-color: #d84e55
+}
+
+.modal-mask .ris_common_nudge_main_wrap {
+    position: unset!important;
+    top: 0!important
+}
+
+.pnr_src_dst {
+    display: flex;
+    grid-gap: .25rem;
+    gap: .25rem
+}
+.footer-wrapper {
+    padding: 3rem;
+    background: #1b2230;
+    color: var(--clr-white);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.footer-center {
+    width: var(--max-width);
+    display: flex
+}
+
+.footer-center .left-block {
+    width: 70%;
+    display: flex;
+    grid-gap: .5rem;
+    gap: .5rem
+}
+
+.footer-center .right-block {
+    width: 30%;
+    display: flex;
+    flex-direction: column
+}
+
+.footer-center .footer-col {
+    display: flex;
+    flex-direction: column;
+    width: 20%
+}
+
+.footer-center .footer-col-heading {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: var(--clr-gray-5);
+    margin-top: 0
+}
+
+.footer-center .footer-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+.footer-center .footer-links {
+    text-decoration: none;
+    color: var(--clr-white);
+    font-size: .75rem;
+    line-height: 1.25rem
+}
+
+.footer-center .img-desc {
+    display: inline;
+    width: 4.063rem;
+    height: 2.625rem
+}
+
+.footer-center .img-desc img {
+    height: 100%;
+    width: 100%
+}
+
+.footer-center .footer-about {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400
+}
+/*pnr input wrapper*/
+/* Default Styles */
+.pnr_stat_header_wrap {
+    background: #fff;
+    margin-top: 4.7rem;
+    width: 100%;
+  }
+  
+  .pnr_stat_header_wrap .pnr_chk_stat_btn_wrap {
+    background: #fff;
+    position: relative;
+    top: 3rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pnr_stat_header_wrap .pnr_stat_header {
+    padding: 1.125rem 1.25rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    background: #fff;
+  }
+  
+  .pnr-new-input-wrap {
+    padding: 0 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+  }
+  
+  .pnr-new-input-wrap input {
+    width: 100%;
+    padding: 14px 16px;
+    letter-spacing: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #3e3e52;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .pnr_stat_header_wrap {
+      margin-top: 3.5rem;
+    }
+  
+    .pnr_stat_header_wrap .pnr_stat_header {
+      padding: 1rem 1rem;
+    }
+  
+    .pnr_stat_header_wrap .pnr_stat_header .pnr_stat_header_text {
+      font-size: 14px;
+      line-height: 20px;
+      margin-left: 1rem;
+    }
+  
+    .pnr_stat_header_wrap .pnr_chk_stat_btn {
+      font-size: 12px;
+      line-height: 15px;
+      padding: 12px;
+      margin: 0.75rem;
+    }
+  
+    .pnr-new-input-wrap {
+      top: 3.5rem;
+    }
+  
+    .pnr-new-input-wrap input {
+      padding: 12px 14px;
+      letter-spacing: 14px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .pnr_stat_header_wrap {
+      margin-top: 3rem;
+    }
+  
+    .pnr_stat_header_wrap .pnr_stat_header {
+      padding: 0.75rem 0.75rem;
+    }
+  
+    .pnr_stat_header_wrap .pnr_stat_header .pnr_stat_header_text {
+      font-size: 12px;
+      line-height: 16px;
+      margin-left: 0.75rem;
+    }
+  
+    .pnr_stat_header_wrap .pnr_chk_stat_btn {
+      font-size: 10px;
+      line-height: 13px;
+      padding: 10px;
+      margin: 0.5rem;
+    }
+  
+    .pnr-new-input-wrap {
+      top: 3rem;
+      padding: 0 0.75rem 0.75rem;
+    }
+  
+    .pnr-new-input-wrap input {
+      padding: 10px 12px;
+      letter-spacing: 12px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  /*pnr main wrap*/
+  /* Default Styles */
+.pnrstatus_dweb_main_wrap .banner-wrapper {
+    height: 27rem;
+    padding-top: 6.2rem;
+  }
+  
+  .pnrstatus_dweb_main_wrap .banner {
+    height: 350px;
+    border-radius: 0;
+    position: relative;
+    top: -1.5rem;
+  }
+  
+  .pnr-desktop-container {
+    min-height: calc(100vh - 314px);
+    padding: 0 33%;
+    background: #e0e0e0;
+  }
+  
+  .pnr-desktop-landing {
+    margin: 0 auto;
+    width: var(--max-width);
+    background: #fff;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .pnrstatus_dweb_main_wrap .banner-wrapper {
+      height: 20rem;
+      padding-top: 4.5rem;
+    }
+  
+    .pnrstatus_dweb_main_wrap .banner {
+      height: 250px;
+      top: -1rem;
+    }
+  
+    .pnr-desktop-container {
+      min-height: calc(100vh - 250px);
+      padding: 0 20%;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .pnrstatus_dweb_main_wrap .banner-wrapper {
+      height: 15rem;
+      padding-top: 3rem;
+    }
+  
+    .pnrstatus_dweb_main_wrap .banner {
+      height: 180px;
+      top: -0.75rem;
+    }
+  
+    .pnr-desktop-container {
+      min-height: calc(100vh - 200px);
+      padding: 0 10%;
+    }
+  }
+  /*seo main wrap and item wrap*/
+  /* Default Styles */
+.seo_main_wrap {
+    position: relative;
+    top: 3rem;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .seo_item_wrap {
+    background: #fff;
+    padding: 1rem 1rem 1.25rem;
+    color: #3e3e52;
+    margin-bottom: 0.25rem;
+  }
+  
+  .seo_item_wrap h1,
+  .seo_item_wrap h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  
+  .seo_item_wrap p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: flex-start;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .seo_main_wrap {
+      top: 2rem;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    .seo_item_wrap {
+      padding: 0.75rem 0.75rem 1rem;
+    }
+  
+    .seo_item_wrap h1,
+    .seo_item_wrap h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .seo_item_wrap h3 {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  
+    .seo_item_wrap p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .seo_main_wrap {
+      top: 1.5rem;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .seo_item_wrap {
+      padding: 0.5rem 0.5rem 0.75rem;
+    }
+  
+    .seo_item_wrap h1,
+    .seo_item_wrap h2 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  
+    .seo_item_wrap p {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+/*seo main wrap red data wrap*/
+/* Default Styles */
+.seo_main_wrap {
+    position: relative;
+    top: 3rem;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .seo_item_wrap .flex-container {
+    display: flex;
+  }
+  
+  .seo_item_wrap table,
+  .seo_item_wrap td,
+  .seo_item_wrap th {
+    border: 1px solid #d1d1d1;
+    border-collapse: collapse;
+  }
+  
+  .seo_item_wrap td,
+  .seo_item_wrap th {
+    padding: 0.5rem;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  
+  .seo_item_wrap .seo_item_abbr {
+    text-align: center;
+    background: #465986;
+    color: #fff;
+    width: 100px;
+  }
+  
+  .seo_item_wrap .seo_red_data {
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3e3e52;
+    font-weight: 700;
+    background: #faf1f2;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .seo_main_wrap {
+      top: 2rem;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    .seo_item_wrap .flex-container {
+      flex-direction: column;
+    }
+  
+    .seo_item_wrap .table1,
+    .seo_item_wrap .table2 {
+      width: 100%;
+    }
+  
+    .seo_item_wrap td,
+    .seo_item_wrap th {
+      font-size: 10px;
+      line-height: 13px;
+    }
+  
+    .seo_item_wrap .seo_item_abbr {
+      width: 80px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .seo_main_wrap {
+      top: 1.5rem;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .seo_item_wrap td,
+    .seo_item_wrap th {
+      font-size: 8px;
+      line-height: 10px;
+      padding: 0.25rem;
+    }
+  
+    .seo_item_wrap .seo_item_abbr {
+      width: 60px;
+    }
+  }
+  /*seo  tables and tour */
+  /* Default Styles */
+.seo-links-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 48px;
+    grid-gap: 40px;
+    gap: 40px;
+  }
+  
+  .seo-links-table .routes-table {
+    list-style-type: none;
+    padding: 0;
+    width: 288px;
+    height: 352px;
+    overflow-y: scroll;
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+  }
+  
+  .seo-links-table .table-data {
+    border-top: 1px solid #d1d1d1;
+    border-collapse: collapse;
+    padding: 12px 16px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  
+  .seo-links-table a {
+    color: #1034d9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .seo-links-table {
+      flex-direction: column;
+      padding: 0.75rem 0.75rem 36px;
+      grid-gap: 24px;
+      gap: 24px;
+    }
+  
+    .seo-links-table .routes-table {
+      width: 100%;
+      height: 288px;
+    }
+  
+    .seo-links-table .table-data {
+      padding: 10px 14px;
+      font-size: 10px;
+      line-height: 13px;
+    }
+  
+    .seo-links-table a {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .seo-links-table {
+      padding: 0.5rem 0.5rem 24px;
+      grid-gap: 16px;
+      gap: 16px;
+    }
+  
+    .seo-links-table .routes-table {
+      height: 240px;
+    }
+  
+    .seo-links-table .table-data {
+      padding: 8px 12px;
+      font-size: 8px;
+      line-height: 10px;
+    }
+  
+    .seo-links-table a {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  } 
+  /* pnr rise*/
+  /* Default Styles */
+.ris_pnr_details_main_wrap .pnr_note {
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3e3e52;
+    background: #e9f0ff;
+    margin-top: -0.5rem;
+  }
+  
+  .ris_pnr_details_main_wrap .ris_pnr_overall_status {
+    padding: 0.5rem;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ris_pnr_details_main_wrap .ris_pnr_chart_status_block {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3e3e52;
+  }
+  
+  .ris_pnr_details_main_wrap .pnr_train_src_details_wrap .pnr_train_quota_wrap {
+    padding: 1.5rem 1rem 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3e3e52;
+  }
+  
+  .ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_dept_arr_time {
+    font-size: 12px;
+    line-height: 16px;
+    color: #3e3e52;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_duration_wrap .duration .duration_text {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #3e3e52;
+  }
+  
+  .ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_station_names_wrap .pnr_stn_name {
+    font-size: 12px;
+    line-height: 16px;
+    color: #3e3e52;
+    width: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .ris_pnr_details_main_wrap .pnr_note {
+      font-size: 12px;
+      line-height: 16px;
+      padding: 0.75rem;
+    }
+  
+    .ris_pnr_details_main_wrap .ris_pnr_overall_status {
+      font-size: 12px;
+      line-height: 16px;
+      padding: 0.375rem;
+    }
+  
+    .ris_pnr_details_main_wrap .ris_pnr_chart_status_block {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  
+    .ris_pnr_details_main_wrap .pnr_train_src_details_wrap .pnr_train_quota_wrap {
+      padding: 1.25rem 0.75rem 0.5rem;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  
+    .ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_dept_arr_time {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  
+    .ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_duration_wrap .duration .duration_text {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  
+    .ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_station_names_wrap .pnr_stn_name {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .ris_pnr_details_main_wrap .pnr_note {
+      font-size: 10px;
+      line-height: 14px;
+      padding: 0.5rem;
+    }
+  
+    .ris_pnr_details_main_wrap .ris_pnr_overall_status {
+      font-size: 10px;
+      line-height: 14px;
+      padding: 0.25rem;
+    }
+  
+    .ris_pnr_details_main_wrap .ris_pnr_chart_status_block {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  
+    .ris_pnr_details_main_wrap .pnr_train_src_details_wrap .pnr_train_quota_wrap {
+      padding: 1rem 0.5rem 0.375rem;
+      font-size: 10px;
+      line-height: 14px;
+    }
+  
+    .ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_dept_arr_time {
+      font-size: 8px;
+      line-height: 12px;
+    }
+  
+    .ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_duration_wrap .duration .duration_text {
+      font-size: 8px;
+      line-height: 12px;
+    }
+  
+    .ris_pnr_details_main_wrap .pnr_general_wrapper .pnr_station_names_wrap .pnr_stn_name {
+      font-size: 8px;
+      line-height: 12px;
+    }
+  }
+  /*recent pnr search box and recent pnr wrap*/
+  /* Default Styles */
+.recent_pnr_search_wrap {
+    padding: 1.5rem 1rem 1rem;
+    background: #fcfcfc;
+    margin-top: 2rem;
+  }
+  
+  .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_head {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3e3e52;
+    padding-bottom: 1.5rem;
+  }
+  
+  .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_carousel_wrap {
+    display: flex;
+    position: relative;
+  }
+  
+  .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap {
+    display: flex;
+    grid-gap: 16px;
+    gap: 16px;
+    overflow-x: auto;
+    width: var(--max-width);
+    padding: 0 0.5rem;
+    position: relative;
+  }
+  
+  .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 0.33333px 1.5px rgba(0, 0, 0, 0.039), 0 1.25px 5px rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    color: #3e3e52;
+    margin-right: 0.5rem;
+    width: 400px;
+    height: 150px;
+    cursor: pointer;
+  }
+  
+  .recent_trainname,
+  .recent_trainname_src_dst {
+    display: inline-block;
+    width: calc(100vw - 60%);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+  }
+  
+  .recent_trainname {
+    max-width: 9.5rem;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .recent_pnr_search_wrap {
+      padding: 1.25rem 0.75rem 0.75rem;
+      margin-top: 1.5rem;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_head {
+      font-size: 14px;
+      line-height: 20px;
+      padding-bottom: 1.25rem;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box {
+      padding: 0.75rem;
+      width: 320px;
+      height: 120px;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .recent_train_pnr_wrap {
+      font-size: 12px;
+      line-height: 15px;
+      padding-bottom: 0.75rem;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .src_dst_recent {
+      font-size: 10px;
+      line-height: 13px;
+      padding-bottom: 0.25rem;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .chk_stat_blue {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  
+    .recent_trainname {
+      max-width: 8rem;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .recent_pnr_search_wrap {
+      padding: 1rem 0.5rem 0.5rem;
+      margin-top: 1rem;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_head {
+      font-size: 12px;
+      line-height: 16px;
+      padding-bottom: 1rem;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box {
+      padding: 0.5rem;
+      width: 240px;
+      height: 100px;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .recent_train_pnr_wrap {
+      font-size: 10px;
+      line-height: 13px;
+      padding-bottom: 0.5rem;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .src_dst_recent {
+      font-size: 8px;
+      line-height: 10px;
+      padding-bottom: 0.25rem;
+    }
+  
+    .recent_pnr_search_wrap .pnr-content-wrap .recent_pnr_search_box_wrap .recent_pnr_search_box .chk_stat_blue {
+      font-size: 10px;
+      line-height: 13px;
+    }
+  
+    .recent_trainname {
+      max-width: 6rem;
+    }
+  }
+  /*nav and pnr */
+  /* Default Styles */
+.pnrstatus_dweb_main_wrap .banner-wrapper {
+    height: 27rem;
+    padding-top: 6.2rem;
+  }
+  
+  .pnrstatus_dweb_main_wrap .banner {
+    height: 350px;
+    border-radius: 0;
+    position: relative;
+    top: -1.5rem;
+  }
+  
+  .pnr-desktop-container {
+    min-height: calc(100vh - 314px);
+    padding: 0 33%;
+    background: #e0e0e0;
+  }
+  
+  .pnr-desktop-landing {
+    margin: 0 auto;
+    width: var(--max-width);
+    background: #fff;
+  }
+  
+  .breadcrumb-wrapper {
+    position: relative;
+    top: -1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .breadcrumb-wrapper .breadcrumb-content {
+    width: var(--max-width);
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .breadcrumb-wrapper .crumb-link,
+  .breadcrumb-wrapper .crumb-link .crumb-href {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.31px;
+    color: #9f9eff !important;
+  }
+  
+  .breadcrumb-wrapper .crumb-dstn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.31px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .pnrstatus_dweb_main_wrap .banner-wrapper {
+      height: 20rem;
+      padding-top: 4.5rem;
+    }
+  
+    .pnrstatus_dweb_main_wrap .banner {
+      height: 250px;
+      top: -1rem;
+    }
+  
+    .pnr-desktop-container {
+      min-height: calc(100vh - 250px);
+      padding: 0 20%;
+    }
+  
+    .breadcrumb-wrapper {
+      top: -1rem;
+      margin-bottom: 0.75rem;
+    }
+  
+    .breadcrumb-wrapper .crumb-link,
+    .breadcrumb-wrapper .crumb-link .crumb-href {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .breadcrumb-wrapper .crumb-dstn {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .pnrstatus_dweb_main_wrap .banner-wrapper {
+      height: 15rem;
+      padding-top: 3rem;
+    }
+  
+    .pnrstatus_dweb_main_wrap .banner {
+      height: 180px;
+      top: -0.75rem;
+    }
+  
+    .pnr-desktop-container {
+      min-height: calc(100vh - 200px);
+      padding: 0 10%;
+    }
+  
+    .breadcrumb-wrapper {
+      top: -0.75rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .breadcrumb-wrapper .crumb-link,
+    .breadcrumb-wrapper .crumb-link .crumb-href {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  
+    .breadcrumb-wrapper .crumb-dstn {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }

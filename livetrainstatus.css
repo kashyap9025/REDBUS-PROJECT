@@ -1,0 +1,889 @@
+.banner-wrapper {
+    padding-top: 4.75rem;
+    height: 27rem
+}
+
+.banner {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3rem 9rem 0;
+    height: 35.5rem;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    border-radius: 0 0 48px 48px;
+    border-radius: var(--Radius-0,0) var(--Radius-0,0) var(--Spacing-48,48px) var(--Spacing-48,48px)
+}
+
+.banner,.logo {
+    display: flex
+}
+
+.logo .rails-logo {
+    width: 88px;
+    height: 48px;
+    padding-left: 16px
+}
+
+.logo .text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    font-size: 40px;
+    line-height: 120%;
+    color: #fff
+}
+
+.irctc-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    padding-left: 16px
+}
+
+.irctc-logo>img {
+    width: 40px;
+    height: 40px
+}
+
+.pnr-input-wrapper {
+    display: flex;
+    width: var(--max-width);
+    margin: 0 auto;
+    height: 60px;
+    position: relative
+}
+
+.pnr-input-wrapper .button {
+    padding: 15px 25px;
+    font-weight: 700;
+    width: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #d84e55;
+    border: none;
+    border-radius: 0 8px 8px 0
+}
+
+.pnr-input-wrapper .pnr_disabled1 {
+    cursor: not-allowed
+}
+
+.pnr-input-wrapper .pnr-input-text {
+    display: flex;
+    border-radius: 8px 0 0 8px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    background-image: url(/railways/public/images/pnr_icon.svg);
+    background-size: 20px;
+    background-position: 18px;
+    background-repeat: no-repeat;
+    padding-left: 48px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: .125rem
+}
+
+.ris-wrapper {
+    margin: 3rem 0 1.5rem;
+    grid-gap: 1rem;
+    gap: 1rem
+}
+
+.ris-wrapper,.ris-wrapper .ris-selector {
+    display: flex;
+    align-items: center;
+    height: 40px
+}
+
+.ris-wrapper .ris-selector {
+    flex-direction: row;
+    padding: 8px 12px;
+    grid-gap: 16px;
+    gap: 16px;
+    background: #fff;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #1d1d1d;
+    width: -moz-max-content;
+    width: max-content;
+    cursor: pointer
+}
+
+.ris-wrapper .radio-button-outer {
+    margin-right: unset;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #4a4a4a
+}
+
+.ris-wrapper .radio-button-outer .radio-button-inner {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+}
+
+.ris-wrapper .red-border-radio {
+    border: 2px solid #d84e55
+}
+
+.ris-wrapper .red-background {
+    background: #d84e55!important
+}
+
+.top-ten-trains-wrapper {
+    background: #f3f4f9;
+    min-height: 1569px
+}
+
+.top-ten-trains-wrapper .cinXYg {
+    height: 100%
+}
+
+.top-ten-trains-wrapper .cinXYg>div {
+    position: relative!important;
+    z-index: 30
+}
+
+.data-container {
+    padding: 32px 0;
+    width: var(--max-width);
+    margin: 0 auto
+}
+
+.heading-container {
+    height: 45px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    margin-bottom: 20px
+}
+
+.body-container .train-container-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 20px;
+    grid-gap: 3px;
+    gap: 3px;
+    height: 114px;
+    background: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 8px;
+    margin-bottom: 30px
+}
+
+.body-container .train-container {
+    flex-basis: 25.33%
+}
+
+.body-container .train-container .train-name {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%
+}
+
+.body-container .train-container .days {
+    margin-top: 2px;
+    display: flex;
+    margin-bottom: 4px
+}
+
+.body-container .train-container .runningDaysClassnameYes {
+    margin-right: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #747474
+}
+
+.body-container .train-container .runningDaysClassnameNo {
+    margin-right: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #747474
+}
+
+.body-container .train-container .seats {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: #747474;
+    margin-bottom: 4px
+}
+
+.body-container .train-src-dst-container {
+    padding: 20px;
+    grid-gap: 20px;
+    gap: 20px;
+    width: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 54.33%
+}
+
+.body-container .train-src-dst-container .sub-container1 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 46.33%
+}
+
+.body-container .train-src-dst-container .sub-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 28.33%
+}
+
+.body-container .train-src-dst-container .time {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1d1d1d
+}
+
+.body-container .train-src-dst-container .station-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1d1d1d
+}
+
+.body-container .train-src-dst-container .station-code {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #1d1d1d
+}
+
+.body-container .train-src-dst-container .duration-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: .25rem;
+    gap: .25rem
+}
+
+.body-container .train-src-dst-container .duration-wrapper .connecting-line {
+    width: .5rem;
+    border-top: .0625rem solid #e5e5e5
+}
+
+.body-container .train-src-dst-container .duration-wrapper .duration {
+    width: -moz-max-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #747474
+}
+
+.body-container .train-src-dst-container .train-route {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    color: #00e
+}
+
+.body-container .train-src-dst-container .sub-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-basis: 47.33%
+}
+
+.body-container .train-container3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    flex-basis: 20.33%
+}
+
+.body-container .train-container3 .availability-button {
+    border: none;
+    background: #465986;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    grid-gap: 8px;
+    gap: 8px;
+    cursor: pointer
+}
+
+.body-container .train-container3 .train-cost {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #008531
+}
+
+.calendar_wrapper {
+    z-index: 2999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #000;
+    position: absolute;
+    top: 3.5rem;
+    left: 2%
+}
+
+.ads_header {
+    color: #3e3e52;
+    color: var(--text-primary,#3e3e52);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px
+}
+
+.ads {
+    height: auto;
+    box-sizing: border-box;
+    background-color: #fff
+}
+
+.ad_wrapper {
+    width: 970px;
+    margin: 3rem auto
+}
+
+.ad_wrapper>div>div:first-child>img {
+    margin-left: 0!important
+}
+
+#adTechFallback img {
+    width: 96%;
+    height: 103px;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.hide {
+    display: none
+}
+/*pnr input */
+/* Default Styles */
+.pnr-input-wrapper {
+    display: flex;
+    width: 100%;
+  }
+  
+  .pnr-input-wrapper .button {
+    padding: 15px 25px;
+    font-weight: 700;
+    width: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #d84e55;
+    border: none;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .pnr-input-wrapper .pnr-input-text {
+    display: flex;
+    border-radius: 8px 0 0 8px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    background-image: url(/railways/public/images/pnr_icon.svg);
+    background-size: 20px;
+    background-position: 18px;
+    background-repeat: no-repeat;
+    padding-left: 48px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .pnr-input-wrapper .button {
+      padding: 12px 20px;
+      font-size: 14px;
+      line-height: 20px;
+      width: 160px;
+    }
+  
+    .pnr-input-wrapper .pnr-input-text {
+      padding-left: 40px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      font-size: 14px;
+      line-height: 20px;
+      background-size: 18px;
+      background-position: 16px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .pnr-input-wrapper {
+      flex-direction: column;
+    }
+  
+    .pnr-input-wrapper .button {
+      padding: 10px 16px;
+      font-size: 12px;
+      line-height: 16px;
+      width: 100%;
+      border-radius: 0 0 8px 8px;
+    }
+  
+    .pnr-input-wrapper .pnr-input-text {
+      padding-left: 36px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      font-size: 12px;
+      line-height: 16px;
+      background-size: 16px;
+      background-position: 14px;
+      border-radius: 8px 8px 0 0;
+    }
+  }
+  /*tarin container*/
+  /* Default Styles */
+.top-ten-trains-wrapper {
+    background: #f3f4f9;
+    min-height: 1569px;
+  }
+  
+  .data-container {
+    padding: 32px 0;
+    width: var(--max-width);
+    margin: 0 auto;
+  }
+  
+  .heading-container {
+    height: 45px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    margin-bottom: 20px;
+  }
+  
+  .body-container .train-container-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 20px;
+    grid-gap: 3px;
+    gap: 3px;
+    height: 114px;
+    background: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .body-container .train-container {
+    flex-basis: 25.33%;
+  }
+  
+  .body-container .train-container .train-name {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  
+  .body-container .train-container .runningDaysClassnameYes {
+    margin-right: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #747474;
+  }
+  
+  .body-container .train-container .seats {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: #747474;
+    margin-bottom: 4px;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .top-ten-trains-wrapper {
+      min-height: auto;
+    }
+  
+    .data-container {
+      padding: 24px 0;
+    }
+  
+    .heading-container {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+  
+    .body-container .train-container-wrapper {
+      padding: 16px;
+      height: 96px;
+      margin-bottom: 24px;
+    }
+  
+    .body-container .train-container {
+      flex-basis: 33.33%;
+    }
+  
+    .body-container .train-container .train-name {
+      font-size: 1rem;
+    }
+  
+    .body-container .train-container .runningDaysClassnameYes {
+      font-size: 12px;
+    }
+  
+    .body-container .train-container .seats {
+      font-size: 10px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .data-container {
+      padding: 16px 0;
+    }
+  
+    .heading-container {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+  
+    .body-container .train-container-wrapper {
+      padding: 12px;
+      height: 88px;
+      margin-bottom: 16px;
+    }
+  
+    .body-container .train-container {
+      flex-basis: 50%;
+    }
+  
+    .body-container .train-container .train-name {
+      font-size: 0.875rem;
+    }
+  
+    .body-container .train-container .runningDaysClassnameYes {
+      font-size: 10px;
+      margin-right: 6px;
+    }
+  
+    .body-container .train-container .seats {
+      font-size: 8px;
+    }
+  }
+  /*train src dest container*/
+  /* Default Styles */
+.body-container .train-src-dst-container {
+    padding: 20px;
+    grid-gap: 20px;
+    gap: 20px;
+    width: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 54.33%;
+  }
+  
+  .body-container .train-src-dst-container .sub-container1 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 46.33%;
+  }
+  
+  .body-container .train-src-dst-container .sub-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 28.33%;
+  }
+  
+  .body-container .train-src-dst-container .time {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1d1d1d;
+  }
+  
+  .body-container .train-src-dst-container .station-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1d1d1d;
+  }
+  
+  .body-container .train-src-dst-container .duration-wrapper .duration {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #747474;
+  }
+  
+  .body-container .train-container3 .availability-button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .body-container .train-src-dst-container {
+      width: 100%;
+      padding: 16px;
+      grid-gap: 16px;
+      gap: 16px;
+    }
+  
+    .body-container .train-src-dst-container .sub-container1,
+    .body-container .train-src-dst-container .sub-container3 {
+      flex-basis: 40%;
+    }
+  
+    .body-container .train-src-dst-container .sub-container2 {
+      flex-basis: 20%;
+    }
+  
+    .body-container .train-src-dst-container .time {
+      font-size: 16px;
+    }
+  
+    .body-container .train-src-dst-container .station-name {
+      font-size: 14px;
+    }
+  
+    .body-container .train-src-dst-container .duration-wrapper .duration {
+      font-size: 14px;
+    }
+  
+    .body-container .train-container3 .availability-button {
+      font-size: 16px;
+      padding: 10px 16px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .body-container .train-src-dst-container {
+      padding: 12px;
+      grid-gap: 12px;
+      gap: 12px;
+    }
+  
+    .body-container .train-src-dst-container .sub-container1,
+    .body-container .train-src-dst-container .sub-container3 {
+      flex-basis: 45%;
+    }
+  
+    .body-container .train-src-dst-container .sub-container2 {
+      flex-basis: 10%;
+    }
+  
+    .body-container .train-src-dst-container .time {
+      font-size: 14px;
+    }
+  
+    .body-container .train-src-dst-container .station-name {
+      font-size: 12px;
+    }
+  
+    .body-container .train-src-dst-container .station-code {
+      font-size: 10px;
+    }
+  
+    .body-container .train-src-dst-container .duration-wrapper .duration {
+      font-size: 12px;
+    }
+  
+    .body-container .train-container3 .availability-button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  /* banner */
+  /* Default Styles */
+.banner-wrapper {
+    padding-top: 4.75rem;
+    height: 27rem;
+  }
+  
+  .banner {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3rem 9rem 0;
+    height: 35.5rem;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-radius: 0 0 48px 48px;
+  }
+  
+  .banner,
+  .logo {
+    display: flex;
+  }
+  
+  .logo .rails-logo {
+    width: 88px;
+    height: 48px;
+    padding-left: 16px;
+  }
+  
+  .logo .text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    font-size: 40px;
+    line-height: 120%;
+    color: #fff;
+  }
+  
+  .irctc-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    padding-left: 16px;
+  }
+  
+  .irctc-logo > img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .banner-wrapper {
+      padding-top: 3.5rem;
+      height: 20rem;
+    }
+  
+    .banner {
+      padding: 2rem 6rem 0;
+      height: 25rem;
+      border-radius: 0 0 36px 36px;
+    }
+  
+    .logo .rails-logo {
+      width: 72px;
+      height: 40px;
+      padding-left: 12px;
+    }
+  
+    .logo .text {
+      font-size: 32px;
+    }
+  
+    .irctc-logo {
+      font-size: 16px;
+      line-height: 24px;
+      padding-left: 12px;
+    }
+  
+    .irctc-logo > img {
+      width: 36px;
+      height: 36px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .banner-wrapper {
+      padding-top: 2.5rem;
+      height: 15rem;
+    }
+  
+    .banner {
+      padding: 1.5rem 4rem 0;
+      height: 18.75rem;
+      border-radius: 0 0 24px 24px;
+    }
+  
+    .logo .rails-logo {
+      width: 56px;
+      height: 32px;
+      padding-left: 8px;
+    }
+  
+    .logo .text {
+      font-size: 24px;
+    }
+  
+    .irctc-logo {
+      font-size: 14px;
+      line-height: 20px;
+      padding-left: 8px;
+    }
+  
+    .irctc-logo > img {
+      width: 32px;
+      height: 32px;
+    }
+  }
